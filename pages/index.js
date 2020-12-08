@@ -111,7 +111,16 @@ const Index = () => (
             To provide tools that will help men break through sexual shame, guilt, self judgement and self sabotaging habits to live a
             more disciplined, masterful and purposeful life.
           </Text>
-          <List spacing={2} mt={8} as="ol" styleType="decimal">
+          <Heading
+            letterSpacing="tight"
+            mt={4}
+            as="h2"
+            size="md"
+            fontWeight="bold"
+          >
+            Living from source
+          </Heading>
+          <List spacing={2} mt={8} as="ul" styleType="decimal">
             <ListItem fontWeight="medium" fontSize="mg">
               To reprogram disruptive sexual habits, ineffective sexual beliefs and social conditioning that may erode a man’s ability to relate to the world.
             </ListItem>
@@ -127,11 +136,12 @@ const Index = () => (
             body and feeling what is happening right here/right now instead of 
             being in your head with your formulas and notions." –– Greg Paul
           </Text>
-          <Text color="gray.700" mt={4}>
-            It takes a tribe to make a responsible man then it takes radical responsibility to make a self sourced man  
-          </Text>
 
           <Divider borderColor="gray.200" my={16} w="100%" />
+
+          <Text color="gray.700" mt={4} fontStyle="italic" fontSize="lg">
+            It takes a tribe to make a responsible man then it takes radical responsibility to make a self sourced man.  
+          </Text>
 
           <Subscribe />
           
