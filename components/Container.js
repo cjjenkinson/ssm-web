@@ -1,12 +1,12 @@
 import React from 'react';
 import NextLink from 'next/link';
-import { Flex, Box } from '@chakra-ui/core';
+import { Flex, Box, Heading } from '@chakra-ui/core';
 
 const Container = ({ children }) => (
   <>
     <Box bg="#FBFBFB">
       <Box
-        background="linear-gradient(270deg, #0AF5F4 25.28%, #09DB1F 59.7%, #F7F322 97.75%)"
+        background="linear-gradient(to right, #c21500, #ffc500)"
         w="full"
         h="15px"
       />
@@ -24,13 +24,15 @@ const Container = ({ children }) => (
       >
         <NextLink href="/" passHref>
           <Box as="a">
-            <Box
-              as="img"
-              alt="jamstackfns"
-              src="/logo.svg"
-              width="32px"
-              height="32px"
-            />
+            <Heading
+              letterSpacing="tight"
+              mb={4}
+              as="h1"
+              size="xl"
+              fontWeight="bold"
+            >
+              SSM
+            </Heading>
           </Box>
         </NextLink>
       </Flex>
