@@ -108,8 +108,8 @@ const Index = () => (
             To build a community platform that will help men be of service, become self sourced, self satisfied and activate their inner power.   
           </Text>
           <Text color="gray.700" mt={4}>
-            To provide tools that will help men break through sexual shame, guilt, self judgement and self sabotaging habits to live with
-            more a disciplined, masterful and purposeful life.
+            To provide tools that will help men break through sexual shame, guilt, self judgement and self sabotaging habits to live a
+            more disciplined, masterful and purposeful life.
           </Text>
           <List spacing={2} mt={8} as="ol" styleType="decimal">
             <ListItem fontWeight="medium" fontSize="mg">
