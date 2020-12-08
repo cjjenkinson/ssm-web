@@ -99,17 +99,17 @@ const Index = () => (
             We aim:
           </Text>
           <Text color="gray.700" mt={4}>
-            To educate men and give them the support in creating healthy habits and practices around their sexuality. 
+            To educate men and give them the support in creating healthy habits and practices around their sexuality, body and mind. 
           </Text>
           <Text color="gray.700" mt={4}>
-            To create a masculine culture that supports the full authentic sexual expression of men.   
+            To create a masculine culture that supports the full authentic expression of men.   
           </Text>
           <Text color="gray.700" mt={4}>
             To build a community platform that will help men be of service, become self sourced, self satisfied and activate their inner power.   
           </Text>
           <Text color="gray.700" mt={4}>
-            To provide tools that will help men break through sexual shame, guilt, self judgement and self sabotaging habits around sexuality 
-            and relationships.   
+            To provide tools that will help men break through sexual shame, guilt, self judgement and self sabotaging habits to live with
+            more ma disciplined, masterful and purposeful life.
           </Text>
           <List spacing={2} mt={8} as="ol" styleType="decimal">
             <ListItem fontWeight="medium" fontSize="mg">
