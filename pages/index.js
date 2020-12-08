@@ -53,7 +53,7 @@ const Index = () => (
             >
               Raise your
               <Box>
-                <Box display="inline" backgroundColor="#0af5f4">
+                <Box display="inline" backgroundColor="#ffc500">
                   wellbeing standards.
                 </Box>
               </Box>
