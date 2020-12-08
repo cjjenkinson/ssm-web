@@ -127,6 +127,10 @@ const Index = () => (
             body and feeling what is happening right here/right now instead of 
             being in your head with your formulas and notions." –– Greg Paul
           </Text>
+          <Text color="gray.700" mt={4}>
+            It takes a tribe to make a responsible man then it takes radical responsibility to make a self sourced man  
+          </Text>
+
           <Divider borderColor="gray.200" my={16} w="100%" />
 
           <Subscribe />
