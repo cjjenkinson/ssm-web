@@ -4,7 +4,7 @@ import { Flex, Box, Heading } from '@chakra-ui/core';
 
 const Container = ({ children }) => (
   <>
-    <Box bg="#FBFBFB">
+    <Box bg="#f3ece2">
       <Box
         background="linear-gradient(to right, #c21500, #ffc500)"
         w="full"

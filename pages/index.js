@@ -27,7 +27,7 @@ const trackGoal = (id) => {
 
 const Index = () => (
   <Box as="main">
-    <Flex justifyContent="center" flexDirection="column" bg="#FBFBFB">
+    <Flex justifyContent="center" flexDirection="column" bg="#f3ece2">
       <Container>
         <Stack
           as="section"
