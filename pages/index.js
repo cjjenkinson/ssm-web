@@ -59,7 +59,7 @@ const Index = () => (
               </Box>
             </Heading>
             <Text color="gray.700" mb={4} fontSize="lg">
-              A new platform designed to help conscious men master their sexual, body and mental health. Live from source.
+              We help conscious men master their sexual fitness enabling them to live with more confidence, creativity and vitality. 
             </Text>
             <Subscribe />
           </Flex>
@@ -90,7 +90,7 @@ const Index = () => (
             size="lg"
             fontWeight="bold"
           >
-            Vision
+            Our Vision
           </Heading>
           <Text color="gray.700" mt={4}>
             Our vision is to provide men with a space that will revolutionise their sexual health and wellbeing through instruction, tools and community. 
@@ -120,7 +120,7 @@ const Index = () => (
           >
             Living from source
           </Heading>
-          <List spacing={2} mt={8} as="ul" styleType="decimal">
+          <List spacing={2} mt={8}>
             <ListItem fontWeight="medium" fontSize="mg">
               To reprogram disruptive sexual habits, ineffective sexual beliefs and social conditioning that may erode a man’s ability to relate to the world.
             </ListItem>

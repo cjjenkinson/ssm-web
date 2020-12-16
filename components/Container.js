@@ -1,44 +1,72 @@
 import React from 'react';
 import NextLink from 'next/link';
-import { Flex, Box, Heading } from '@chakra-ui/core';
+import { Heading, Button, Flex, Box } from '@chakra-ui/core';
+import styled from '@emotion/styled';
 
-const Container = ({ children }) => (
-  <>
-    <Box bg="#f3ece2">
-      <Box
-        background="linear-gradient(to right, #c21500, #ffc500)"
-        w="full"
-        h="15px"
-      />
-      <Flex
+import Footer from './Footer';
+
+const StickyNav = styled(Flex)`
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  backdrop-filter: saturate(180%) blur(20px);
+  transition: background-color 0.1 ease-in-out;
+`;
+
+const Container = ({ children }) => {
+  return (
+    <>
+      <StickyNav
         flexDirection="row"
         justifyContent="space-between"
         alignItems="center"
-        maxWidth="800px"
+        maxWidth="900px"
         width="100%"
         as="nav"
         p={8}
-        mt={[0, 0, 8]}
-        mb={[0, 0, 8]}
+        mt={[0, 8]}
+        mb={8}
         mx="auto"
       >
-        <NextLink href="/" passHref>
-          <Box as="a">
-            <Heading
-              letterSpacing="tight"
-              mb={4}
-              as="h1"
-              size="xl"
-              fontWeight="bold"
-            >
-              SSM
-            </Heading>
-          </Box>
-        </NextLink>
+        <Heading
+          letterSpacing="tight"
+          as="h1"
+          size="xl"
+          fontWeight="bold"
+        >
+          SSM
+        </Heading>
+        <Box>
+          <NextLink href="/articles" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Articles
+            </Button>
+          </NextLink>
+          <NextLink href="/about" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              About
+            </Button>
+          </NextLink>
+          <NextLink href="/" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Home
+            </Button>
+          </NextLink>
+        </Box>
+      </StickyNav>
+      <Flex
+        as="main"
+        justifyContent="center"
+        flexDirection="column"
+        bg={'white'}
+        color={'black'}
+        px={8}
+      >
+        {children}
+        <Footer />
       </Flex>
-    </Box>
-    {children}
-  </>
-);
+    </>
+  );
+};
 
 export default Container;

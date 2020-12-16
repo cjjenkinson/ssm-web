@@ -8,21 +8,44 @@
     "url": "git+https://github.com/selfsourcedman/web.git"
   },
   "scripts": {
+    "preinstall": "node -e \"if (process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('Use yarn for installing: https://yarnpkg.com/en/docs/install')\"",
     "build": "next build",
     "dev": "next",
-    "start": "next start"
+    "start": "next start",
+    "export": "next build && next export",
+    "postexport": "node utils/post-export.js"
   },
+  "pre-commit": "pretty-quick --staged",
   "dependencies": {
-    "@chakra-ui/core": "0.7.0",
-    "@emotion/core": "10.0.28",
+    "@chakra-ui/core": "0.8.0",
+    "@emotion/core": "10.0.35",
     "@emotion/styled": "10.0.27",
+    "babel-plugin-import-glob-array": "^0.2.0",
+    "contentful": "^8.1.4",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^6.0.0",
     "emotion-theming": "10.0.27",
+    "googleapis": "^66.0.0",
+    "iframe-resizer-react": "^1.0.4",
     "next": "10.0.2",
-    "next-seo": "4.17.0",
+    "next-google-fonts": "^1.2.1",
+    "next-seo": "^4.17.0",
+    "postinstall-postinstall": "^2.1.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-ga": "^3.3.0",
+    "react-markdown": "^5.0.3",
+    "reading-time": "^1.2.1",
+    "remark-autolink-headings": "^6.0.1",
+    "remark-capitalize": "^1.1.0",
+    "remark-code-titles": "^0.1.1",
+    "remark-slug": "^6.0.0",
+    "swr": "0.3.2",
+    "unsplash-js": "^7.0.1"
   },
   "devDependencies": {
-    "prettier": "2.2.0"
+    "globby": "^11.0.1",
+    "prettier": "^2.2.1"
   }
 }
