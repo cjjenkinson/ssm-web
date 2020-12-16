@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/core';
 
 import Container from '../../components/Container';
-import BlogPost from '../../components/Post';
+import Post from '../../components/Post';
 
 import { ContentfulService } from '../../services/contentful';
 
@@ -66,9 +66,7 @@ const Blog = (props) => {
               Articles
             </Heading>
             <Text>
-              {`I've been writing online since 2014, mostly about web development and tech careers.
-                In total, I've written ${entries.length} articles on this site.
-                Use the search below to filter by title.`}
+              {`We write articles around the practices, results and research from the community.`}
             </Text>
             <InputGroup my={4} mr={4} w="100%">
               <Input
@@ -93,7 +91,7 @@ const Blog = (props) => {
             </Heading>
             {!filteredBlogPosts.length && 'No posts found.'}
             {filteredBlogPosts.map((entry) => (
-              <BlogPost key={entry.id} {...entry} />
+              <Post key={entry.id} {...entry} />
             ))}
           </Flex>
         </Stack>

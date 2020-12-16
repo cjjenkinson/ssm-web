@@ -14,7 +14,7 @@ import {
 
 import Container from '../../components/Container';
 import Subscribe from '../../components/Subscribe';
-import PostSeo from '../../components/PostSeo';
+import PostSeo from '../../components/PostSEO';
 
 import { ContentfulService } from '../../services/contentful';
 
