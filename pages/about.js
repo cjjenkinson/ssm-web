@@ -50,7 +50,7 @@ const About = () => {
               We help men master their sexual fitness and improve their wellbeing helping them become more confidence, creative and aligned.
             </Text>
             <Text mb={4}>
-              **Join a commitment to becoming the best man you can become.**
+              Join a commitment to becoming the best man you can become.
             </Text>
           </Flex>
         </Stack>

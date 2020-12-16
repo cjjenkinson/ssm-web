@@ -5,20 +5,6 @@ const Dotenv = require('dotenv-webpack');
 const { generateAllArticles } = require('./utils/helpers');
 
 const next_config = {
-  webpack: (config) => {
-    config.plugins = config.plugins || [];
-
-    config.plugins = [
-      ...config.plugins,
-      new Dotenv({
-        path: path.join(__dirname, '.env'),
-        systemvars: true
-      })
-    ];
-
-    return config;
-  },
-
   exportPathMap: async () => {
     const articles = await generateAllArticles();
 

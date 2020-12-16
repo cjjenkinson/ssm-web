@@ -1,7 +1,7 @@
 import React from 'react';
 import { NextSeo, ArticleJsonLd } from 'next-seo';
 
-const BlogSeo = ({ title, description, publishedAt, author, heroImage, url }) => {
+const PostSeo = ({ title, description, publishedAt, author, heroImage, url }) => {
   const date = new Date(publishedAt).toISOString();
   const featuredImage = {
     url: heroImage.url,
@@ -40,4 +40,4 @@ const BlogSeo = ({ title, description, publishedAt, author, heroImage, url }) =>
   );
 };
 
-export default BlogSeo;
+export default PostSeo;
