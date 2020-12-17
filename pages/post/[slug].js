@@ -18,18 +18,11 @@ import PostSeo from '../../components/PostSEO';
 
 import { ContentfulService } from '../../services/contentful';
 
-const editUrl = (slug) =>
-  `https://github.com/leerob/leerob.io/edit/master/pages/blog/${slug}.mdx`;
-const discussUrl = (slug) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://leerob.io/blog/${slug}`
-  )}`;
-
-const Post = ({ article, suggestedArticles }) => {
+const Post = ({ article, tags, suggestedArticles }) => {
 
   return (
     <Container>
-      <PostSeo url={`https://selfsourcedman.com/articles/${article.slug}`} {...article} />
+      <PostSeo url={`https://selfsourcedman.com/blog/${article.slug}`} {...article} />
       <Stack
         as="article"
         spacing={8}
@@ -74,16 +67,7 @@ const Post = ({ article, suggestedArticles }) => {
         </Flex>
         <Box>
           <ReactMarkdown className="markdown" source={article.body} />
-        </Box>
-        <Subscribe />
-        <Box>
-          <Link href={discussUrl(article.slug)} isExternal>
-            {'Discuss on Twitter'}
-          </Link>
-          {` • `}
-          <Link href={editUrl(article.slug)} isExternal>
-            {'Edit on GitHub'}
-          </Link>
+          <Subscribe headline="Subscribe for future posts:" />
         </Box>
       </Stack>
     </Container>
@@ -106,6 +90,7 @@ export async function getStaticProps({ params }) {
   return { 
     props: { 
       article, 
+      tags,
       suggestedArticles 
     }
   };

@@ -11,15 +11,15 @@ import {
   Icon
 } from '@chakra-ui/core';
 
-import Container from '../../components/Container';
-import Post from '../../components/Post';
+import Container from '../components/Container';
+import Post from '../components/Post';
 
-import { ContentfulService } from '../../services/contentful';
+import { ContentfulService } from '../services/contentful';
 
-const url = 'https://selfsourcedman.com/articles';
-const title = 'Articles – Self Sourced Man';
+const url = 'https://selfsourcedman.com/blog';
+const title = 'Blog – Self Sourced Man';
 const description =
-  'XXX.';
+  'Learn how to master practices around male sexuality and wellbeing';
 
 const Blog = (props) => {
   const [searchValue, setSearchValue] = useState('');
@@ -110,28 +110,10 @@ export const getStaticProps = async ({ query }) => {
     limit: 100
   });
 
-  const { tags } = await contentfulService.getAllTags();
-
   return { 
-    props: { tags, entries, total } 
+    props: { entries, total } 
   };
 };
 
-export const getStaticPaths = async () => {
-  const contentfulService = new ContentfulService();
-
-  const {
-    entries,
-  } = await contentfulService.getBlogPostEntries({
-    limit: 100
-  });
-
-  const paths = entries.map(({ slug }) => ({ params: { slug } }));
-
-  return { 
-    paths, 
-    fallback: false 
-  };
-}
 
 export default Blog;

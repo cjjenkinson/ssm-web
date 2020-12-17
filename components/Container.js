@@ -19,6 +19,11 @@ const StickyNav = styled(Flex)`
 const Container = ({ children }) => {
   return (
     <>
+      <Box
+        background="linear-gradient(to right, #c21500, #ffc500)"
+        w="full"
+        h="15px"
+      />
       <StickyNav
         flexDirection="row"
         justifyContent="space-between"
@@ -40,9 +45,9 @@ const Container = ({ children }) => {
           SSM
         </Heading>
         <Box>
-          <NextLink href="/articles" passHref>
+          <NextLink href="/blog" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
-              Articles
+              Blog
             </Button>
           </NextLink>
           <NextLink href="/about" passHref>

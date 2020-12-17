@@ -1,6 +1,6 @@
-const title = 'Self Sourced - Master your sexual fitness';
+const title = 'Self Sourced Man - Raise your wellbeing standards';
 const description =
-  'Join a community of conscious men improving their sexual, body and mental health'
+  'Join a community of conscious men improving their sexuality, body and mental health'
 
 const SEO = {
   title,
