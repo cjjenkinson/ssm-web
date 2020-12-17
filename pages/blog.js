@@ -66,7 +66,7 @@ const Blog = (props) => {
               Articles
             </Heading>
             <Text>
-              {`We write articles around the practices, results and research from the community.`}
+              {`Everything we publish is related to the Self Sourced pillars, practices and results from the community.`}
             </Text>
             <InputGroup my={4} mr={4} w="100%">
               <Input

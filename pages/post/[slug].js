@@ -22,7 +22,7 @@ const Post = ({ article, tags, suggestedArticles }) => {
 
   return (
     <Container>
-      <PostSeo url={`https://selfsourcedman.com/blog/${article.slug}`} {...article} />
+      <PostSeo url={`https://selfsourcedman.com/post/${article.slug}`} {...article} />
       <Stack
         as="article"
         spacing={8}
@@ -78,6 +78,7 @@ export async function getStaticProps({ params }) {
   const contentfulService = new ContentfulService();
 
   const { slug } = params;
+  
   const article = await contentfulService.getPostBySlug(slug);
 
   const tags = article.tags ? article.tags.map((tag) => tag.sys.id) : [];

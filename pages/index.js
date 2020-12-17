@@ -53,9 +53,9 @@ const Index = () => (
               </Box>
             </Heading>
             <Text color="gray.700" mb={4} fontSize="lg">
-              We help conscious men master their sexuality fitness enabling them to live with more confidence, creativity and vitality. 
+              We help conscious men master their sexual fitness enabling them to live with more confidence, creativity and vitality. 
             </Text>
-            
+
             <Subscribe />
 
             <Heading
@@ -118,7 +118,7 @@ const Index = () => (
               It takes a tribe to make a responsible man but it takes radical responsibility to make a self sourced man.  
             </Text>
   
-            <Subscribe />]
+            <Subscribe />
           </Flex>
         </Stack>
       </Container>
