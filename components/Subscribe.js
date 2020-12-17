@@ -6,8 +6,6 @@ import {
   Input,
   InputRightElement,
   Button,
-  Text,
-  Link,
   useToast
 } from '@chakra-ui/core';
 
@@ -17,7 +15,7 @@ const trackGoal = (id) => {
   }
 };
 
-const Subscribe = () => {
+const Subscribe = ({ headline }) => {
   const [loading, setLoading] = useState(false);
   const inputEl = useRef(null);
   const toast = useToast();
@@ -65,7 +63,7 @@ const Subscribe = () => {
   return (
     <Box m={8} w="100%" mx="auto" as="form">
       <Heading as="h5" size="xs" mb={1} color="gray.900" fontWeight="medium">
-        Sign up for our newsletter and get 10% off your membership when we launch.
+        {headline ? headline : "Sign up for our newsletter and get 10% off your membership when we launch."}
       </Heading>
       <InputGroup size="lg" mt={2}>
         <Input
