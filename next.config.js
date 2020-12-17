@@ -19,8 +19,8 @@ const next_config = {
     const insights = articles.reduce(
       (pages, entry) =>
         Object.assign({}, pages, {
-          [`/articles/${entry.slug}`]: {
-            page: '/articles/[slug]',
+          [`/post/${entry.slug}`]: {
+            page: '/post/[slug]',
             query: { slug: entry.slug }
           }
         }),
