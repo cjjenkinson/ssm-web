@@ -2,6 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 // import IframeResizer from 'iframe-resizer-react';
 import { parseISO, format } from 'date-fns';
+import gfm from 'remark-gfm';
 import {
   Heading,
   Text,
@@ -15,6 +16,7 @@ import {
 import Container from '../../components/Container';
 import Subscribe from '../../components/Subscribe';
 import PostSeo from '../../components/PostSEO';
+import Renderers from '../../components/Renderers';
 
 import { ContentfulService } from '../../services/contentful';
 
@@ -66,7 +68,7 @@ const Post = ({ article, tags, suggestedArticles }) => {
           </Flex>
         </Flex>
         <Box>
-          <ReactMarkdown className="markdown" source={article.body} />
+          <ReactMarkdown plugins={[gfm]} className="markdown" children={article.body} renderers={Renderers} />
           <Subscribe headline="Subscribe for future posts:" />
         </Box>
       </Stack>
