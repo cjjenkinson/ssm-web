@@ -12,7 +12,7 @@ import theme from '../styles/theme';
 import SEO from '../next-seo.config';
 
 import { initGA, logPageView } from '../utils/google-analytics';
-import { initFacebookPixel, trackPageView } from '../utils/facebook-pixel';
+import FacebookPixel from '../utils/FacebookPixel';
 
 const GlobalStyle = ({ children }) => (
   <>
@@ -43,7 +43,6 @@ const GlobalStyle = ({ children }) => (
 
 Router.events.on('routeChangeComplete', () => {
   logPageView(),
-  trackPageView()
 });
 
 const App = ({ Component, pageProps }) => {
@@ -51,7 +50,6 @@ const App = ({ Component, pageProps }) => {
     if (process.env.NODE_ENV === 'production') {
       if (!window.GA_INITIALIZED) {
         initGA()
-        initFacebookPixel()
         window.GA_INITIALIZED = true
       }
     }
@@ -78,6 +76,7 @@ const App = ({ Component, pageProps }) => {
             name="google-site-verification"
           />
         </Head>
+        <FacebookPixel />
         <DefaultSeo {...SEO} />
         <Component {...pageProps} />
       </GlobalStyle>
