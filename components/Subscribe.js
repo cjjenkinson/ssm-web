@@ -51,9 +51,9 @@ const Subscribe = ({ headline }) => {
     logEvent('subscribe');
     pixel.track({
       event: 'Lead', 
-      data: {
+      data: JSON.stringify({
         content_category: 'Blog Subscriber'
-      }
+      })
     });
     inputEl.current.value = '';
     toast({

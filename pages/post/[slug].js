@@ -30,10 +30,10 @@ const Post = ({ article, tags, suggestedArticles }) => {
     logEvent('view_content');
     pixel.track({
       event: 'ViewContent', 
-      data: {
+      data: JSON.stringify({
         content_name: article.title,
         content_type: 'post'
-      }
+      })
     });
   }, []);
 
