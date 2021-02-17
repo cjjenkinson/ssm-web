@@ -38,15 +38,15 @@ const Index = () => (
               size="2xl"
               fontWeight="bold"
             >
-              Master Semen Retention, 
+             The tool kit for an
               <Box>
                 <Box display="inline" backgroundColor="#0F1B26" color="#fff" p={1}>
-                  unlock a new you.
+                  effective semen retention practice.
                 </Box>
               </Box>
             </Heading>
             <Text color="gray.700" mb={4} fontSize="lg">
-              The tool kit for an effective semen retention practice
+              Master your sexual energy, unlock a new you.
             </Text>
 
             <Heading
