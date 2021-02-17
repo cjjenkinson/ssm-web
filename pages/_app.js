@@ -42,7 +42,6 @@ const GlobalStyle = ({ children }) => (
 );
 
 Router.events.on('routeChangeComplete', () => {
-  console.log('Logging page view')
   logPageView()
 });
 

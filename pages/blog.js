@@ -65,9 +65,6 @@ const Blog = (props) => {
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
               The (source) Journal
             </Heading>
-            <Text>
-              Learn more about the practice and the journey we are on.
-            </Text>
             <InputGroup my={4} mr={4} w="100%">
               <Input
                 aria-label="Search articles"
