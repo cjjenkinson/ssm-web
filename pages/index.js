@@ -46,7 +46,8 @@ const Index = () => (
               </Box>
             </Heading>
             <Text color="gray.700" mb={4} fontSize="lg">
-              Master your sexual energy, unlock a new you.
+              The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
+              Self Sourced man is the owner’s manual and tool kit for cultivating and using it effectively.
             </Text>
 
             <Heading
@@ -58,10 +59,6 @@ const Index = () => (
             >
               Living from source
             </Heading>
-            <Text color="gray.700" mt={4}>
-              The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
-              Self Sourced man is the owner’s manual and tool kit for cultivating and using it effectively.
-            </Text>
 
             <Text color="gray.700" mt={4}>
               Semen Retention is a centuries-old practice that allows you to harness your body’s vital energy and redirect it to 
