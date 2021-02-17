@@ -11,7 +11,7 @@ const PostSeo = ({ title, description, publishedAt, author, heroImage, url }) =>
   return (
     <>
       <NextSeo
-        title={`${title} – Self Sourced Man`}
+        title={title}
         description={description}
         canonical={url}
         openGraph={{

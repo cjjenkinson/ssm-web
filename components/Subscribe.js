@@ -46,9 +46,9 @@ const Subscribe = ({ headline }) => {
     }
 
     logEvent('subscribe');
-    trackEvent('Lead', {
-      content_category: 'Blog Subscriber'
-    });
+    // trackEvent('Lead', {
+    //   content_category: 'Blog Subscriber'
+    // });
     inputEl.current.value = '';
     toast({
       title: 'Thank you',
