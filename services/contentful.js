@@ -25,9 +25,9 @@ export class ContentfulService {
       description: fields.description,
       heroImage: fields.heroImage.fields.file.url,
       slug: fields.slug,
-      tags: fields.tags,
-      publishedAt: fields.publishDate
-        ? new Date(fields.publishDate).toISOString()
+      tags: null,
+      publishedAt: fields.publishedAt
+        ? new Date(fields.publishedAt).toISOString()
         : new Date(sys.createdAt).toISOString()
     }));
   }
@@ -37,11 +37,11 @@ export class ContentfulService {
       id: sys.id,
       episode: fields.episode,
       title: fields.title,
-      body: fields.body,
+      body: fields.mainBody,
       heroImage: fields.heroImage.fields.file.url,
       slug: fields.slug,
-      publishedAt: fields.publishDate
-        ? new Date(fields.publishDate).toISOString()
+      publishedAt: fields.publishedAt
+        ? new Date(fields.publishedAt).toISOString()
         : new Date(sys.createdAt).toISOString()
     }));
   }
@@ -90,8 +90,7 @@ export class ContentfulService {
         include: 1,
         limit,
         skip,
-        order: 'fields.publishDate',
-        'fields.tags.sys.id': tag,
+        order: 'fields.publishedAt',
         content_type: CONTENT_TYPE_BLOGPOST
       });
 
@@ -148,14 +147,14 @@ export class ContentfulService {
       return {
         id: entry.sys.id,
         slug: entry.fields.slug,
-        body: entry.fields.body,
+        body: entry.fields.mainBody,
         title: entry.fields.title,
         description: entry.fields.description,
-        tags: entry.fields.tags,
+        tags: null,
         heroImage: { url: entry.fields.heroImage.fields.file.url },
         author: { ...author, id: entry.fields.author.sys.id },
-        publishedAt: entry.fields.publishDate
-          ? new Date(entry.fields.publishDate).toISOString()
+        publishedAt: entry.fields.publishedAt
+          ? new Date(entry.fields.publishedAt).toISOString()
           : new Date(entry.sys.createdAt).toISOString()
       };
     } catch (error) {
@@ -174,10 +173,10 @@ export class ContentfulService {
         episodeNumber: entry.fields.episode,
         slug: entry.fields.slug,
         title: entry.fields.title,
-        body: entry.fields.podcastBody,
+        body: entry.fields.mainBody,
         heroImage: { url: entry.fields.heroImage.fields.file.url },
-        publishedAt: entry.fields.publishDate
-          ? new Date(entry.fields.publishDate).toISOString()
+        publishedAt: entry.fields.publishedAt
+          ? new Date(entry.fields.publishedAt).toISOString()
           : new Date(entry.sys.createdAt).toISOString()
       };
     } catch (error) {
@@ -193,7 +192,7 @@ export class ContentfulService {
       content_type: CONTENT_TYPE_BLOGPOST,
       limit,
       // find at least one matching tag, else undefined properties are not copied
-      'fields.tags.sys.id[in]': tags.length ? tags.join(',') : undefined,
+      // 'fields.tags.sys.id[in]': tags.length ? tags.join(',') : undefined,
       'fields.slug[ne]': currentArticleSlug // exclude current article
     };
 
