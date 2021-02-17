@@ -21,7 +21,7 @@ import Renderers from '../../components/Renderers';
 import { ContentfulService } from '../../services/contentful';
 
 import { logEvent } from '../../utils/google-analytics';
-import { useFacebookPixel } from '../../utils/facebook-pixel';
+import { useFacebookPixel } from '../../utils/FacebookPixel';
 
 const Post = ({ article, tags, suggestedArticles }) => {
   const pixel = useFacebookPixel();
