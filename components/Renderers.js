@@ -59,7 +59,7 @@ const CustomLink = (props) => {
 
   const href = props.href;
   const isInternalLink = href && (href.startsWith('/') || href.startsWith('#'));
-
+  
   const { value } = props.node.children[0];
 
   if (isInternalLink) {
@@ -185,7 +185,7 @@ const Renderers = {
   list: (props) => <Box as="ul" pt={2} pl={4} ml={2} {...props} />,
   list: (props) => <Box as="ol" pt={2} pl={4} ml={2} {...props} />,
   listItem: (props) => <Box as="li" pb={1} {...props} />,
-  blockquote: Quote
+  blockquote: Quote,
 };
 
 export { CustomLink };

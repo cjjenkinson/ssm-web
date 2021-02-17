@@ -39,8 +39,6 @@ const Post = ({ article, tags, suggestedArticles }) => {
     }
   }, [pixel]);
 
-  console.log(article.body);
-
   return (
     <Container>
       <PostSeo url={`https://selfsourcedman.com/post/${article.slug}`} {...article} />
@@ -87,7 +85,7 @@ const Post = ({ article, tags, suggestedArticles }) => {
           </Flex>
         </Flex>
         <Box>
-          <ReactMarkdown plugins={[gfm]} className="markdown" children={article.body} renderers={Renderers} />
+          <ReactMarkdown plugins={[gfm]} className="markdown" children={article.body} />
           <Subscribe type="Blog" headline="Subscribe for future posts:" />
         </Box>
       </Stack>

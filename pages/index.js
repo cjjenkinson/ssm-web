@@ -35,15 +35,10 @@ const Index = () => (
             <Heading
               mb={4}
               as="h1"
-              size="2xl"
+              size="xl"
               fontWeight="bold"
             >
-             The tool kit for an
-              <Box>
-                <Box display="inline" backgroundColor="#0F1B26" color="#fff" p={1}>
-                  effective semen retention practice.
-                </Box>
-              </Box>
+              The tool kit for an effective semen retention practice.
             </Heading>
             <Text color="gray.700" mb={4} fontSize="lg">
               The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
