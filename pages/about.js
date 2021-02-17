@@ -54,20 +54,18 @@ const About = () => {
             />
 
             <Text mb={4}>
-              A Self Sourced Man is able to fill his own container which he then uses to be in service to the world.   
-            </Text>
-            <Text mb={4}>
-              We focus on tools that help men master their sexual energy as we believe this is the foundation for building a solid container. 
+              I help men master their sexual energy as I believe this is the foundation for building a solid base to live from. 
               With this foundation in place it is much easier to create a space for living life from a sustainable source of energy, 
               confidence and vitality.
             </Text>
+
             <Text mb={4}>
-              If we can reprogram disruptive sexual habits, ineffective sexual beliefs and social 
-              conditioning that may erode a man’s ability to relate to the world we are fulfilling our mission of 
-              creating more Self Sourced Men. 
+              If I can reprogram disruptive sexual habits, ineffective sexual beliefs and social conditioning that may erode a man’s 
+              ability to relate to the world I am fulfilling my mission of creating more Self Sourced Men. 
             </Text>
+
             <Text mb={4}>
-              We hope you answer the call to living a life from your own source.
+              I hope you answer the call to living a life from your own source.
             </Text>
           </Flex>
         </Stack>

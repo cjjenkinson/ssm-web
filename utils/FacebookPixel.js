@@ -14,14 +14,8 @@ export const useFacebookPixel = () => {
 
     import('react-facebook-pixel')
       .then(module => (fb = module.default))
-      .then(() => {
-        fb.init(FACEBOOK_PIXEL_ID, {
-          autoConfig: true,
-          debug: false,
-        })
-      })
+      .then(() => setPixel(fb));
 
-    setPixel(fb);
   }, [])
 
   return pixel;
