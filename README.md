@@ -1,10 +1,9 @@
-# React 2025
+# Self Sourced Man
 
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/leerob/react2025.git
-$ cd react2025
+$ cd ssm-web
 $ yarn
 $ yarn dev
 ```

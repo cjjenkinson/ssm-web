@@ -1,6 +1,7 @@
-const title = 'Self Sourced Man - Raise your wellbeing standards';
+const title = 'Self Sourced Man';
 const description =
-  'We help conscious men master their sexual fitness enabling them to live with more confidence, creativity and vitality.'
+  'The tool kit for an effective semen retention practice. Raise your wellbeing standards, unlock more energy and design the life you want to live.';
+
 
 const SEO = {
   title,

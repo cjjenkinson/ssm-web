@@ -20,7 +20,18 @@ import Renderers from '../../components/Renderers';
 
 import { ContentfulService } from '../../services/contentful';
 
+import { logEvent } from '../../utils/google-analytics';
+import { trackEvent } from '../../utils/facebook-pixel';
+
 const Post = ({ article, tags, suggestedArticles }) => {
+
+  useEffect(() => {
+    logEvent('view_content');
+    trackEvent('ViewContent', {
+      content_name: article.title,
+      content_type: 'post'
+    });
+  }, []);
 
   return (
     <Container>

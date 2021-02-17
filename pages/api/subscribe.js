@@ -1,3 +1,17 @@
+const PRE_MEMBERSHIP_LIST_ID = '09abe89f-76ba-42a1-8e10-f03acc04e61b';
+
+const getLocationFromIp = async () => {
+  const response = await fetch(`http://ip-api.com/json`);
+
+  const body = await response.json();
+
+  if (body.status !== 'success') {
+    return null;
+  }
+
+  return body
+}
+
 export default async (req, res) => {
   const { email } = req.body;
 
@@ -6,31 +20,36 @@ export default async (req, res) => {
   }
 
   try {
-    const API_KEY = process.env.BUTTONDOWN_API_KEY;
+    const API_KEY = process.env.SENDGRID_API_KEY;
+
+    const location = await getLocationFromIp();
+
     const response = await fetch(
-      `https://api.buttondown.email/v1/subscribers`,
+      `https://api.sendgrid.com/v3/marketing/contacts`,
       {
         body: JSON.stringify({
-          email,
-          tags: ['react2025']
+          "list_ids": [
+            PRE_MEMBERSHIP_LIST_ID
+          ],
+          "contacts": [
+            {
+              "email": email,
+              "city": location?.city,
+              "country": location?.country,
+              "postal_code": location?.zip,
+              "state_province_region": location?.regionName,
+            }
+          ]
         }),
         headers: {
-          Authorization: `Token ${API_KEY}`,
+          Authorization: `Bearer ${API_KEY}`,
           'Content-Type': 'application/json'
         },
-        method: 'POST'
+        method: 'PUT'
       }
     );
 
     if (response.status >= 400) {
-      const text = await response.text();
-
-      if (text.includes('already subscribed')) {
-        return res.status(400).json({
-          error: `You're already subscribed to my mailing list.`
-        });
-      }
-
       return res.status(400).json({
         error: text
       });

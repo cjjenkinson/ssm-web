@@ -9,11 +9,7 @@ import {
   useToast
 } from '@chakra-ui/core';
 
-const trackGoal = (id) => {
-  if (window.fathom) {
-    window.fathom.trackGoal(id, 0);
-  }
-};
+import { logEvent } from '../utils/google-analytics';
 
 const Subscribe = ({ headline }) => {
   const [loading, setLoading] = useState(false);
@@ -49,10 +45,13 @@ const Subscribe = ({ headline }) => {
       return;
     }
 
-    trackGoal('MW8HUEX3');
+    logEvent('subscribe');
+    trackEvent('Lead', {
+      content_category: 'Blog Subscriber'
+    });
     inputEl.current.value = '';
     toast({
-      title: 'Success!',
+      title: 'Thank you',
       description: 'You are now subscribed.',
       status: 'success',
       duration: 3000,
@@ -63,7 +62,7 @@ const Subscribe = ({ headline }) => {
   return (
     <Box m={8} w="100%" mx="auto" as="form">
       <Heading as="h5" size="xs" mb={1} color="gray.900" fontWeight="medium">
-        {headline ? headline : "Sign up for our newsletter and get 10% off your membership when we launch."}
+        {headline ? headline : "You must join the list to become a Member."}
       </Heading>
       <InputGroup size="lg" mt={2}>
         <Input

@@ -5,15 +5,12 @@ import styled from '@emotion/styled';
 
 import Footer from './Footer';
 
-// position: sticky;
-// z-index: 10;
-// top: 0;
-// backdrop-filter: saturate(180%) blur(20px);
-// transition: background-color 0.1 ease-in-out;
 const StickyNav = styled(Flex)`
   z-index: 10;
   top: 0;
   transition: background-color 0.1 ease-in-out;
+  position: sticky;
+  backdrop-filter: saturate(180%) blur(20px);
 `;
 
 const Container = ({ children }) => {
@@ -22,7 +19,7 @@ const Container = ({ children }) => {
       <Box
         background="linear-gradient(to right, #c21500, #ffc500)"
         w="full"
-        h="15px"
+        h="8px"
       />
       <StickyNav
         flexDirection="row"
@@ -36,28 +33,30 @@ const Container = ({ children }) => {
         mb={8}
         mx="auto"
       >
-        <Heading
-          letterSpacing="tight"
-          as="h1"
-          size="xl"
-          fontWeight="bold"
-        >
-          SSM
-        </Heading>
+        <NextLink href="/" passHref>
+          <Heading
+            letterSpacing="tight"
+            as="h1"
+            size="xl"
+            fontWeight="bold"
+          >
+            SSM
+          </Heading>
+        </NextLink>
         <Box>
-          <NextLink href="/blog" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Blog
-            </Button>
-          </NextLink>
           <NextLink href="/about" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               About
             </Button>
           </NextLink>
+          <NextLink href="/blog" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Journal
+            </Button>
+          </NextLink>
           <NextLink href="/" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
-              Home
+              Start here
             </Button>
           </NextLink>
         </Box>

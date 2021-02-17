@@ -17,9 +17,9 @@ import Post from '../components/Post';
 import { ContentfulService } from '../services/contentful';
 
 const url = 'https://selfsourcedman.com/blog';
-const title = 'Blog – Self Sourced Man';
+const title = 'Self Sourced Man | Journal';
 const description =
-  'Learn how to master practices around male sexuality and wellbeing';
+  'Learn how to master practices around male sexuality such as semen retention';
 
 const Blog = (props) => {
   const [searchValue, setSearchValue] = useState('');
@@ -63,10 +63,10 @@ const Blog = (props) => {
             maxWidth="700px"
           >
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-              Articles
+              The (source) Journal
             </Heading>
             <Text>
-              {`Everything we publish is related to the Self Sourced pillars, practices and results from the community.`}
+              Learn more about the practice and the journey we are on.
             </Text>
             <InputGroup my={4} mr={4} w="100%">
               <Input

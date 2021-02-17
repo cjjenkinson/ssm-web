@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "description": "Raise your wellbeing standards and live from source",
+  "description": "The tool kit for an effective semen retention practice.",
   "version": "0.0.0",
   "license": "MIT",
   "repository": {
@@ -34,6 +34,7 @@
     "postinstall-postinstall": "^2.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-facebook-pixel": "^1.0.4",
     "react-ga": "^3.3.0",
     "react-markdown": "^5.0.3",
     "reading-time": "^1.2.1",
