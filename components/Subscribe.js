@@ -11,8 +11,11 @@ import {
 
 import { logEvent } from '../utils/google-analytics';
 
+import { useFacebookPixel } from '../utils/FacebookPixel';
+
 const Subscribe = ({ headline }) => {
   const [loading, setLoading] = useState(false);
+  const pixel = useFacebookPixel();
   const inputEl = useRef(null);
   const toast = useToast();
 
@@ -46,9 +49,12 @@ const Subscribe = ({ headline }) => {
     }
 
     logEvent('subscribe');
-    // trackEvent('Lead', {
-    //   content_category: 'Blog Subscriber'
-    // });
+    pixel.track({
+      event: 'Lead', 
+      data: {
+        content_category: 'Blog Subscriber'
+      }
+    });
     inputEl.current.value = '';
     toast({
       title: 'Thank you',

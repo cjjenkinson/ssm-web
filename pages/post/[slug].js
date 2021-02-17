@@ -21,16 +21,20 @@ import Renderers from '../../components/Renderers';
 import { ContentfulService } from '../../services/contentful';
 
 import { logEvent } from '../../utils/google-analytics';
-// import { trackEvent } from '../../utils/facebook-pixel';
+import { useFacebookPixel } from '../../utils/facebook-pixel';
 
 const Post = ({ article, tags, suggestedArticles }) => {
+  const pixel = useFacebookPixel();
 
   useEffect(() => {
     logEvent('view_content');
-    // trackEvent('ViewContent', {
-    //   content_name: article.title,
-    //   content_type: 'post'
-    // });
+    pixel.track({
+      event: 'ViewContent', 
+      data: {
+        content_name: article.title,
+        content_type: 'post'
+      }
+    });
   }, []);
 
   return (
