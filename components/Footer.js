@@ -16,7 +16,7 @@ const Footer = () => (
           /youtube
         </Link>
       </NextLink>
-      <NextLink href="/https://instagram.com/selfsourced" passHref>
+      <NextLink href="https://instagram.com/selfsourced" passHref>
         <Link
           fontSize="sm"
           color="gray.500"
