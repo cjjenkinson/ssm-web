@@ -28,13 +28,13 @@ const Post = ({ article, tags, suggestedArticles }) => {
 
   useEffect(() => {
     logEvent('view_content');
-    pixel.track({
-      event: 'ViewContent', 
-      data: JSON.stringify({
+    pixel.track(
+      'ViewContent', 
+      {
         content_name: article.title,
         content_type: 'post'
-      })
-    });
+      }
+    );
   }, []);
 
   return (
