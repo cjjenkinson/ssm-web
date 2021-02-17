@@ -12,7 +12,7 @@ import theme from '../styles/theme';
 import SEO from '../next-seo.config';
 
 import { initGA, logPageView } from '../utils/google-analytics';
-import FacebookPixel from '../utils/FacebookPixel';
+import { FacebookPixel } from '../utils/FacebookPixel';
 
 const GlobalStyle = ({ children }) => (
   <>
