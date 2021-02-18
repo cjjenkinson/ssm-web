@@ -56,7 +56,7 @@ const Index = () => (
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              Everything you need for an effective, lasting semen retention practice.
+              Everything you need for an effective, lasting semen retention practice that will improve your wellbeing and unlock more energy to create the life you want to live.
             </Text>
 
             <Text color="gray.700" mt={4}>
