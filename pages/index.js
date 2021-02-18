@@ -43,8 +43,39 @@ const Index = () => (
 
             <Text color="gray.700" mb={4} fontSize="lg">
               The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
-              Self Sourced Man is the tool kit you need to start cultivating and using it effectively.
             </Text>
+
+            <Heading
+              letterSpacing="tight"
+              mt={4}
+              as="h2"
+              size="lg"
+              fontWeight="bold"
+            >
+              Includes
+            </Heading>
+
+            <Text color="gray.700" mt={4}>
+             Everything you need for an effective, lasting semen retention practice.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              <strong>The (source) Handbook</strong> - A self-paced workshop co-created with world leading sexuality coaches with recorded video/audio integration practices: Qi Gong, breathwork routines and meditations.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              <strong>The (source) Journal</strong> - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              <strong>iOS and Android app</strong> - A dedicated tracking app to help you get actionable insights about your practice and understand its impact.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              The Self Sourced Man community with bi-weekly live calls will be introduced later this year.
+            </Text>
+
+            <Divider borderColor="gray.200" my={8} w="100%" />
 
             <Heading
               letterSpacing="tight"
@@ -128,38 +159,6 @@ const Index = () => (
               letterSpacing="tight"
               mt={4}
               as="h2"
-              size="lg"
-              fontWeight="bold"
-            >
-              What is included?
-            </Heading>
-
-            <Text color="gray.700" mt={4}>
-              The kit contains everything you need to become a practitioner of the semen retention lifestyle right away. 
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              <strong>The (source) Handbook</strong> - A structured learning path co-created with world leading sexuality coaches with recorded video/audio integration practices: Qi Gong, breathwork routines and meditations.
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              <strong>The (source) Journal</strong> - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              <strong>iOS and Android app</strong> - A dedicated tracking app to help you get actionable insights about your practice and understand its impact.
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              The Self Sourced Man community with bi-weekly live calls will be introduced later this year.
-            </Text>
-
-            <Divider borderColor="gray.200" my={8} w="100%" />
-
-            <Heading
-              letterSpacing="tight"
-              mt={4}
-              as="h2"
               size="md"
               size="lg"
               fontWeight="bold"
@@ -177,7 +176,7 @@ const Index = () => (
 
             <List color="gray.700" spacing={1} mt={4} as="ul" styleType="ordered">
               <ListItem fontWeight="medium" fontSize="mg">
-                heard about semen retention but did not know where to start 
+                heard about semen retention but were unsure where to start
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 struggled with porn addiction and habitual masturbation

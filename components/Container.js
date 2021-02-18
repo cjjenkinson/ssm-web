@@ -26,9 +26,9 @@ const Container = ({ children }) => {
         maxWidth="900px"
         width="100%"
         as="nav"
-        p={0.4}
+        p={4}
         mt={[0, 8]}
-        mb={8}
+        mb={4}
         mx="auto"
       >
         <NextLink href="/" passHref>
