@@ -54,13 +54,13 @@ const About = () => {
             />
 
             <Text mb={4}>
-              Self Sourced Man is a self-development platform dedicated to providing instruction, tools and support to drive improved mental, physical and energetic well-being for men.
+              Self Sourced Man is a self-development platform dedicated to driving improved mental, physical and energetic well-being for men.
             </Text>
 
             <Text mb={4}>
-              Its purpose is to get men connected to their sexual energy as a foundation to improving their wellbeing. We want to help men 
-              reprogram disruptive sexual habits, ineffective sexual beliefs and social conditioning that may erode their
-              ability to relate to the world preventing them from having the relationships and life they desire.
+              Its main purpose is to get men connected to their sexual energy as a foundation to live from. We want to help men 
+              reprogram disruptive sexual habits, ineffective sexual beliefs and social conditioning that erodes their
+              ability to relate to the world which prevents them from having the relationships and life they desire.
             </Text>
 
             <Text mb={4}>

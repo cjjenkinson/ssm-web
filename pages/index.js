@@ -56,7 +56,7 @@ const Index = () => (
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              Everything you need for an effective, lasting semen retention practice that will improve your wellbeing and unlock more energy to create the life you want to live.
+              Everything you need for an effective, lasting semen retention practice. 
             </Text>
 
             <Text color="gray.700" mt={4}>
@@ -167,7 +167,7 @@ const Index = () => (
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              The tool kit is created for men who are new to the practice and not sure where to start or have struggled to sustain a practice long enough to get benefits in the past. 
+              The tool kit is created for men who are new to the practice or have struggled in the past to sustain a practice long enough to get lasting benefits. 
             </Text>
 
             <Text color="gray.700" mt={4}>
@@ -199,7 +199,7 @@ const Index = () => (
             </List>
 
             <Text color="gray.700" mt={4}>
-              My aim is to give men the best path forward with their semen retention practice. 
+              My aim is to give you the best path forward so that you can master your semen retention practice. 
             </Text>
 
             <Text color="gray.700" mt={4}>
