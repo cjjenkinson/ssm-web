@@ -199,7 +199,7 @@ const Index = () => (
             </List>
 
             <Text color="gray.700" mt={4}>
-              My aim is to give you the best path forward so that you can master your semen retention practice. 
+              My aim is to give you the best path forward so that you can master the practice to improve your well-being and unlock more energy to create the life you want. 
             </Text>
 
             <Text color="gray.700" mt={4}>
