@@ -4,4 +4,24 @@
   <loc>https://www.selfsourcedman.com/</loc>
   <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://www.selfsourcedman.com/about/</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.selfsourcedman.com/blog/</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.selfsourcedman.com/post/semen-retention-why-do-I-feel-angry-and-sexually-frustrated/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.selfsourcedman.com/post/semen-retention-how-can-I-measure-the-impact-of-my-practice/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.selfsourcedman.com/post/semen-rentetion-what-is-semen-and-how-is-it-produced-by-the-body/</loc>
+  <priority>0.80</priority>
+</url>
 </urlset>

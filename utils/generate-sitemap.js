@@ -7,7 +7,7 @@ const fs = require('fs');
 
 // Read from the static map that's provided by next
 const { exportPathMap } = require('../next.config');
-const { generateAllArticles } = require('./helpers');
+
 // Format to the right date
 const formatDate = (date) => `${date.toISOString().split('.')[0]}+0:00`;
 // Priority is determined by path depth. Feel free to modify this if needed:
@@ -55,6 +55,8 @@ exports.generateSitemap = async (domain, targetFolder) => {
   const entries = await exportPathMap();
 
   const pages = Object.entries({ ...entries }).map((item) => item[0]);
+
+  console.log(pages);
 
   const sitemap = `${xmlUrlWrapper(
     pages.map((page) => xmlUrlNode(domain, page, lastModified)).join(`

@@ -28,7 +28,9 @@ const next_config = {
     );
 
     const pages = {
-      '/': { page: '/' }
+      '/': { page: '/' },
+      '/about': { page: '/about' },
+      '/blog': { page: '/blog' }
     };
 
     return Object.assign({}, pages, insights);
