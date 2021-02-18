@@ -3,7 +3,7 @@ import NextLink from 'next/link';
 import { Flex, Link, IconButton } from '@chakra-ui/core';
 
 const Footer = () => (
-  <Flex align="center" mb={4} direction="column">
+  <Flex align="center" mb={8} direction="column">
     <div>
       <NextLink href="https://www.youtube.com/channel/UC7zYDihxb-Nlu9lOgMEJhjA" passHref>
         <Link
