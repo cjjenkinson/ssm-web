@@ -56,7 +56,7 @@ const Index = () => (
             </Heading>
 
             <Text color="gray.700" mt={4}>
-             Everything you need for an effective, lasting semen retention practice.
+              Everything you need for an effective, lasting semen retention practice.
             </Text>
 
             <Text color="gray.700" mt={4}>
