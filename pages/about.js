@@ -14,7 +14,7 @@ import Container from '../components/Container';
 const url = 'https://selfsourcedman.com/about';
 const title = 'Self Sourced Man | About';
 const description =
-  'The tool kit for an effective semen retention practice. Raise your wellbeing standards, unlock more energy and design the life you want to live.';
+  'Self Sourced Man is a self-development platform dedicated to providing instruction, tools and support to drive improved mental, physical and energetic well-being for men.';
 
 const About = () => {
   return (
@@ -54,18 +54,16 @@ const About = () => {
             />
 
             <Text mb={4}>
-              I help men master their sexual energy as I believe this is the foundation for building a solid base to live from. 
-              With this foundation in place it is much easier to create a space for living life from a sustainable source of energy, 
-              confidence and vitality.
+              Self Sourced Man is a self-development platform dedicated to providing instruction, tools and support to drive improved mental, physical and energetic well-being for men.
             </Text>
 
             <Text mb={4}>
-              If I can reprogram disruptive sexual habits, ineffective sexual beliefs and social conditioning that may erode a man’s 
-              ability to relate to the world I am fulfilling my mission of creating more Self Sourced Men. 
+              Its purpose is to reprogram disruptive sexual habits, ineffective sexual beliefs and social conditioning that may erode a man’s 
+              ability to relate to the world and prevents them from having the relationships and life they desire.
             </Text>
 
             <Text mb={4}>
-              I hope you answer the call to living a life from your own source.
+              Living life from a sustainable source of energy, confidence and vitality is a core component of living as a Self Sourced Man.
             </Text>
           </Flex>
         </Stack>

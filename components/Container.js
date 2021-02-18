@@ -1,6 +1,6 @@
 import React from 'react';
 import NextLink from 'next/link';
-import { Heading, Button, Flex, Box } from '@chakra-ui/core';
+import { Button, Flex, Box, Image } from '@chakra-ui/core';
 import styled from '@emotion/styled';
 
 import Footer from './Footer';
@@ -9,18 +9,16 @@ const StickyNav = styled(Flex)`
   z-index: 10;
   top: 0;
   transition: background-color 0.1 ease-in-out;
-  position: sticky;
-  backdrop-filter: saturate(180%) blur(20px);
 `;
 
 const Container = ({ children }) => {
   return (
-    <>
-      <Box
-        background="linear-gradient(to right, #c21500, #ffc500)"
-        w="full"
-        h="8px"
-      />
+    <Flex 
+      justifyContent="center" 
+      flexDirection="column" 
+      bg="#23211E" 
+      color="#FFF"
+    >
       <StickyNav
         flexDirection="row"
         justifyContent="space-between"
@@ -28,38 +26,38 @@ const Container = ({ children }) => {
         maxWidth="900px"
         width="100%"
         as="nav"
-        p={8}
+        p={0.4}
         mt={[0, 8]}
         mb={8}
         mx="auto"
       >
         <NextLink href="/" passHref>
-          <Heading
-            letterSpacing="tight"
-            as="h1"
-            size="xl"
-            fontWeight="bold"
-          >
-            SSM
-          </Heading>
+          <Image 
+            width="80px"
+            objectFit="cover"
+            src='https://uploads-ssl.webflow.com/5fe8750bd7bed222c6db0d88/602e62ffd453615c843bd67f_logo.png'
+          />
         </NextLink>
-        <Box>
-          <NextLink href="/about" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              About
-            </Button>
-          </NextLink>
-          <NextLink href="/blog" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Journal
-            </Button>
-          </NextLink>
-          <NextLink href="/" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
+        <Flex
+          flexDirection="row"
+          justifyContent="space-between"
+        >
+          <Box mr={4}>
+            <NextLink href="/" passHref>
               Start here
-            </Button>
-          </NextLink>
-        </Box>
+            </NextLink>
+          </Box>
+          <Box mr={4}>
+            <NextLink href="/about" passHref>
+              About
+            </NextLink>
+          </Box>
+          <Box mr={4}>
+            <NextLink href="/blog" passHref>
+              Journal
+            </NextLink>
+          </Box>
+        </Flex>
       </StickyNav>
       <Flex
         as="main"
@@ -68,11 +66,12 @@ const Container = ({ children }) => {
         bg={'white'}
         color={'black'}
         px={8}
+        pt={8}
       >
         {children}
         <Footer />
       </Flex>
-    </>
+    </Flex>
   );
 };
 

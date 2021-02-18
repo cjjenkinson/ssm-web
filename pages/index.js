@@ -15,7 +15,7 @@ import Subscribe from '../components/Subscribe';
 
 const Index = () => (
   <Box as="main">
-    <Flex justifyContent="center" flexDirection="column" bg="#fff8ee">
+    <Flex justifyContent="center" flexDirection="column" bg="#23211E" color="#FFF">
       <Container>
         <Stack
           as="section"
@@ -35,14 +35,15 @@ const Index = () => (
             <Heading
               mb={4}
               as="h1"
-              size="xl"
+              size="2xl"
               fontWeight="bold"
             >
               The tool kit for an effective semen retention practice.
             </Heading>
+
             <Text color="gray.700" mb={4} fontSize="lg">
               The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
-              Self Sourced man is the owner’s manual and tool kit for cultivating and using it effectively.
+              Self Sourced Man is the tool kit you need to start cultivating and using it effectively.
             </Text>
 
             <Heading
@@ -52,26 +53,34 @@ const Index = () => (
               size="lg"
               fontWeight="bold"
             >
-              Living from source
+              The Practice
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              Semen Retention is a centuries-old practice that allows you to harness your body’s vital energy and redirect it to 
-              raise your wellbeing standards, unlock more energy and design the life you want to live.
+              Semen Retention is a centuries-old practice that allows you to harness your body’s vital energy to drive improved mental, physical and energetic well-being.
             </Text>
 
             <Text color="gray.700" mt={4}>
-              My aim is to give you the tools, space and community to teach you how to cultivate, refine and use your sexual energy effectively. 
+              The practice itself comes from Taoist and Ayurvedic literature emphasized over and over for its importance in male health and longetivity. 
+            </Text>
+
+            <Text color="gray.700" mt={4} fontStyle="italic" fontSize="lg">
+              The basic purpose of the practice is to increase as much as possible the quantity of life-giving, 
+              age-retarding hormones secreted in a man’s body during sexual excitement, while at 
+              the same time decreasing as much as possible the loss of semen and its related hormones through ejaculation. 
+              Called huan-jing bu-nau in Chinese (literally ‘return the semen to nourish the brain’), 
+              It’s a well-known medical fact that semen and cerebrospinal fluids consist of the same 
+              basic ingredients, so preserving semen nourishes the brain by making more essential nutrients available to it.
+              Women accomplish this naturally because they retain their sexual secretions during intercourse.
+
+              - Reid, Daniel. The Tao Of Health, Sex And Longevity . 
             </Text>
 
             <Text color="gray.700" mt={4}>
-              Here are the benefits you will expect to gain from the practice:
+              With a dedicated practice you will expect to gain these benefits:
             </Text>
-            
-            <List spacing={2} mt={8} as="ul" styleType="ordered">
-              <ListItem fontWeight="medium" fontSize="mg">
-                overcome toxic sexual habits such as porn addiction and habitual masturbation
-              </ListItem>
+          
+            <List color="gray.700" spacing={1} mt={4} as="ul" styleType="ordered">
               <ListItem fontWeight="medium" fontSize="mg">
                 strong confidence and presence
               </ListItem>
@@ -80,6 +89,9 @@ const Index = () => (
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 more direction and purpose
+              </ListItem>
+              <ListItem fontWeight="medium" fontSize="mg">
+                overcome disruptive sexual habits such as porn addiction and habitual masturbation
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 better connection with women and more sexual confidence
@@ -97,7 +109,7 @@ const Index = () => (
                 increased energy to approach life with greater power and strength
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
-                high functionality of body and mind
+                high functionality of body, mind and wellbeing
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 shift your attention from compulsive thinking and worrying to resting in the simple awareness of presence
@@ -116,37 +128,32 @@ const Index = () => (
               letterSpacing="tight"
               mt={4}
               as="h2"
-              size="md"
               size="lg"
               fontWeight="bold"
             >
-              The Tool Kit
+              What is included?
             </Heading>
-    
+
             <Text color="gray.700" mt={4}>
-              Self Sourced Man is a continuous workshop. That means you dive in and work at your own pace. There are no tests, no competitions, no certificates. 
+              The kit contains everything you need to become a practitioner of the semen retention lifestyle right away. 
             </Text>
 
             <Text color="gray.700" mt={4}>
-              We give you the instruction, tools and support for you to own your journey in learning the practice.
+              <strong>The (source) Handbook</strong> - A structured learning path co-created with world leading sexuality coaches with recorded video/audio integration practices: Qi Gong, breathwork routines and meditations.
             </Text>
 
             <Text color="gray.700" mt={4}>
-            <strong>The (source) Manual</strong> - Structured learning paths co-created with world leading sexuality coaches to help you master semen retention and related skills such as energy work (Qi Gong, Breathwork, Meditation). New learning paths will be introduced throughout the year.
-           </Text>
+              <strong>The (source) Journal</strong> - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
+            </Text>
 
-           <Text color="gray.700" mt={4}>
-            <strong>iOS and Android app</strong> - A dedicated tracking app to help you get actionable insights about your practice and understand its impact.
-           </Text>
+            <Text color="gray.700" mt={4}>
+              <strong>iOS and Android app</strong> - A dedicated tracking app to help you get actionable insights about your practice and understand its impact.
+            </Text>
 
-           <Text color="gray.700" mt={4}>
-            <strong>Community</strong> - Meet, contribute and grow with other men on the same journey as you. By surrounding yourself with progress, you will stay motivated.
-           </Text>
+            <Text color="gray.700" mt={4}>
+              The Self Sourced Man community with bi-weekly live calls will be introduced later this year.
+            </Text>
 
-           <Text color="gray.700" mt={4}>
-             <strong>Live Circle Calls</strong> - A monthly virtual call with fellow members to discuss challenges and share experiences. Exclusive guests will be invited throughout the year to introduce new techniques and learnings.
-           </Text>
-  
             <Divider borderColor="gray.200" my={8} w="100%" />
 
             <Heading
@@ -157,18 +164,75 @@ const Index = () => (
               size="lg"
               fontWeight="bold"
             >
-              Membership Information
+              Who is the tool kit created for?
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              Our members value masculinity, sacred sexuality, and brotherhood. 
+              The tool kit is created for men who are new to the practice and not sure where to start or have struggled to sustain a practice long enough to get benefits in the past. 
             </Text>
 
             <Text color="gray.700" mt={4}>
-              Membership is currently in beta and new Members are limited so that existing Members can be served at the highest level. 
-              To secure your priority registration for the next membership opportunity, submit your email and I will contact you directly. 
+              Maybe you: 
             </Text>
-  
+
+            <List color="gray.700" spacing={1} mt={4} as="ul" styleType="ordered">
+              <ListItem fontWeight="medium" fontSize="mg">
+                heard about semen retention but did not know where to start 
+              </ListItem>
+              <ListItem fontWeight="medium" fontSize="mg">
+                struggled with porn addiction and habitual masturbation
+              </ListItem>
+              <ListItem fontWeight="medium" fontSize="mg">
+                were not sure how to practice it safely
+              </ListItem>
+              <ListItem fontWeight="medium" fontSize="mg">
+                gave up due to lack of willpower or overwhelming emotions 
+              </ListItem>
+              <ListItem fontWeight="medium" fontSize="mg">
+                were feeling uncomfortable about introducing it to your partner
+              </ListItem>
+              <ListItem fontWeight="medium" fontSize="mg">
+                did not want to become a celibate
+              </ListItem>
+              <ListItem fontWeight="medium" fontSize="mg">
+                did not know how to measure and track your progress
+              </ListItem>
+            </List>
+
+            <Text color="gray.700" mt={4}>
+              My aim is to give men the best path forward with their semen retention practice. 
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              With that in mind the goal is to get you to your first 7, 14 and 30 + days of retention helping you embody the practice with an ejaculation schedule that works for you.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              The tool kit starts with clearing and resetting your mental and physical environment to prepare you for achieving your first week of retention.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              It then goes into the skills needed for long term retention such as ejaculation control, conscious sex and intimacy, break through flatlines and emotional blockages, manage overflowing energy and transmuting energy to fully sustained benefits.
+            </Text>
+
+            <Divider borderColor="gray.200" my={8} w="100%" />
+
+            <Heading
+              letterSpacing="tight"
+              mt={4}
+              as="h2"
+              size="md"
+              size="lg"
+              fontWeight="bold"
+            >
+              Join the waiting list
+            </Heading>
+
+            <Text color="gray.700" mt={4}>
+              Membership is currently in closed beta. To secure your priority registration for 
+              the next membership opportunity, submit your email and I will contact you directly. 
+            </Text>
+          
             <Subscribe />
           </Flex>
         </Stack>
