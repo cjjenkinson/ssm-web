@@ -58,7 +58,7 @@ const About = () => {
             </Text>
 
             <Text mb={4}>
-              I help men reprogram disruptive sexual habits and ineffective sexual beliefs that has eroded their ability to relate to the world preventing them from having the relationships and life they truly desire.
+              I help men raise their wellbeing standards, reprogram disruptive sexual habits and ineffective sexual beliefs that has eroded their ability to relate to the world preventing them from having the relationships and life they truly desire.
             </Text>
 
             <Text mb={4}>
