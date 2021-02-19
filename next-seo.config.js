@@ -1,6 +1,6 @@
 const title = 'Self Sourced Man';
 const description =
-  'The tool kit for an effective semen retention practice. Improve your wellbeing, unlock more energy to create the life you want to live.';
+  'The tool kit for an effective semen retention practice. Improve your wellbeing and unlock more energy to create the life you want to live.';
 
 
 const SEO = {

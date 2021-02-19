@@ -65,8 +65,6 @@ const Index = () => (
               The Self Sourced app makes it easy to track your practice so that you can be clear on how much of an impact it is having in your life. It is an easy to use retention tracking tool with daily check prompts designed to help you get actionable insights about your practice. 
             </Text>
 
-            <Divider borderColor="gray.200" my={8} w="100%" />
-
             <Heading
               letterSpacing="tight"
               mt={4}
