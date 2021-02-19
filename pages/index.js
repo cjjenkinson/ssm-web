@@ -45,6 +45,18 @@ const Index = () => (
               The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
             </Text>
 
+            <Text color="gray.700" mt={4}>
+              I’ve built the tool kit that shows you how to cultivate and refine your life force energy effectively.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              Cultivation - learn how to cultivate more sexual energy through the practice of semen retetion.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              Integration - learn energy practices such as Qi Gong, Breathwork, Meditation, Ejaculation Control needed to refine and transmute energy harmoniously
+            </Text>
+
             <Heading
               letterSpacing="tight"
               mt={4}
@@ -188,7 +200,7 @@ const Index = () => (
                 gave up due to lack of willpower or overwhelming emotions 
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
-                were feeling uncomfortable about introducing it to your partner
+                are feeling uncomfortable about introducing it to your partner
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 did not want to become a celibate
@@ -211,7 +223,7 @@ const Index = () => (
             </Text>
 
             <Text color="gray.700" mt={4}>
-              It then goes into the skills needed for long term retention such as ejaculation control, conscious sex and intimacy, break through flatlines and emotional blockages, manage overflowing energy and transmuting energy to fully sustained benefits.
+              It then goes into the skills needed for long term retention such as ejaculation control, conscious sex and intimacy with retention, break through flatlines and emotional blockages, manage overflowing energy and transmuting energy to fully sustained benefits.
             </Text>
 
             <Divider borderColor="gray.200" my={8} w="100%" />

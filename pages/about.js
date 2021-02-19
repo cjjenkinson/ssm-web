@@ -58,13 +58,11 @@ const About = () => {
             </Text>
 
             <Text mb={4}>
-              Its main purpose is to get men connected to their sexual energy as a foundation to live from. We want to help men 
-              reprogram disruptive sexual habits, ineffective sexual beliefs and social conditioning that erodes their
-              ability to relate to the world which prevents them from having the relationships and life they desire.
+              I help men reprogram disruptive sexual habits and ineffective sexual beliefs that has eroded their ability to relate to the world preventing them from having the relationships and life they truly desire.
             </Text>
 
             <Text mb={4}>
-              Living life from a sustainable source of energy, confidence and vitality is a core component of living as a Self Sourced Man - Cameron Jenkinson
+              Living life from a sustainable source of energy, confidence and vitality is the core principle of living as a Self Sourced Man. - Cameron Jenkinson
             </Text>
           </Flex>
         </Stack>
