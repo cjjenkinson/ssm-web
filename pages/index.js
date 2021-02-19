@@ -73,6 +73,7 @@ const Index = () => (
 
             <Text color="gray.700" mt={4}>
               <strong>The (source) Handbook</strong> - A self-paced workshop co-created with world leading sexuality coaches with recorded video/audio integration practices: Qi Gong, breathwork routines and meditations.
+              Other topics it covers include: ejaculation control, sex with retention, breaking through flatlines and emotional blockages, managing overflowing energy and transmuting energy to fully sustained benefits.
             </Text>
 
             <Text color="gray.700" mt={4}>
@@ -211,19 +212,7 @@ const Index = () => (
             </List>
 
             <Text color="gray.700" mt={4}>
-              My aim is to give you the best path forward so that you can master the practice to improve your well-being and unlock more energy to create the life you want. 
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              With that in mind the goal is to get you to your first 7, 14 and 30 + days of retention helping you embody the practice with an ejaculation schedule that works for you.
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              The tool kit starts with clearing and resetting your mental and physical environment to prepare you for achieving your first week of retention.
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              It then goes into the skills needed for long term retention such as ejaculation control, conscious sex and intimacy with retention, break through flatlines and emotional blockages, manage overflowing energy and transmuting energy to fully sustained benefits.
+              My aim is to give you the best path forward so that you can master the practice to get the energy you want to create the life you desire. 
             </Text>
 
             <Divider borderColor="gray.200" my={8} w="100%" />
