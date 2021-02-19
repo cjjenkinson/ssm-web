@@ -57,12 +57,12 @@ const Index = () => (
               The tool kit for an effective semen retention practice
             </Heading>
 
-            <Text color="gray.700" mb={4} fontSize="lg">
+            <Text color="gray.700" mt={4} fontSize="lg">
               An effective practice starts by understanding its impact. 
             </Text>
 
             <Text color="gray.700" mt={4}>
-              The Self Sourced app makes it easy to track your practice so that you can be clear on how much of an impact it is having in your life. It is an easy to use retention tracking tool with daily check prompts designed to help you get actionable insights about your practice. With more clarity comes better decision making which will serve you on your path to mastery. 
+              The Self Sourced app makes it easy to track your practice so that you can be clear on how much of an impact it is having in your life. It is an easy to use retention tracking tool with daily check prompts designed to help you get actionable insights about your practice. 
             </Text>
 
             <Divider borderColor="gray.200" my={8} w="100%" />
