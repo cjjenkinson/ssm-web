@@ -38,23 +38,11 @@ const Index = () => (
               size="2xl"
               fontWeight="bold"
             >
-              The tool kit for an effective semen retention practice.
+              Master semen retention, unlock a new you.
             </Heading>
 
             <Text color="gray.700" mb={4} fontSize="lg">
               The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              I’ve built the tool kit that teaches how you to cultivate and use it effectively.
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              Cultivation - learn how to cultivate more sexual energy through the practice of semen retetion.
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              Integration - learn energy practices such as Qi Gong, Breathwork, Meditation, Ejaculation Control needed to refine and transmute energy harmoniously
             </Text>
 
             <Heading
@@ -64,7 +52,7 @@ const Index = () => (
               size="lg"
               fontWeight="bold"
             >
-              Includes
+              The tool kit
             </Heading>
 
             <Text color="gray.700" mt={4}>
@@ -72,8 +60,7 @@ const Index = () => (
             </Text>
 
             <Text color="gray.700" mt={4}>
-              <strong>The (source) Handbook</strong> - A self-paced workshop co-created with world leading sexuality coaches with recorded video/audio integration practices: Qi Gong, breathwork routines and meditations.
-              Other topics it covers include: ejaculation control, sex with retention, breaking through flatlines and emotional blockages, managing overflowing energy and transmuting energy to fully sustained benefits.
+              <strong>The (source) Handbook</strong> - A self-paced workshop co-created with world leading sexuality coaches covering clearing toxic sexual habits, ejaculation control, sex with retention, breaking through flatlines and emotional blockages, managing overflowing energy and transmuting energy to fully sustained benefits. Also includes video/audio integration practices: Qi Gong, breathwork routines and meditations.
             </Text>
 
             <Text color="gray.700" mt={4}>
@@ -180,7 +167,7 @@ const Index = () => (
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              The tool kit is created for men who are new to the practice or have struggled in the past to sustain a practice long enough to get lasting benefits. 
+              Created for men who are new to the practice or have struggled in the past to sustain lasting benefits. 
             </Text>
 
             <Text color="gray.700" mt={4}>
@@ -189,7 +176,7 @@ const Index = () => (
 
             <List color="gray.700" spacing={1} mt={4} as="ul" styleType="ordered">
               <ListItem fontWeight="medium" fontSize="mg">
-                heard about semen retention but were unsure where to start
+                have heard about semen retention but were unsure where to start
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 struggled with porn addiction and habitual masturbation
@@ -201,7 +188,7 @@ const Index = () => (
                 gave up due to lack of willpower or overwhelming emotions 
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
-                are feeling uncomfortable about introducing it to your partner
+                were feeling uncomfortable about introducing it to your partner
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 did not want to become a celibate
@@ -212,7 +199,7 @@ const Index = () => (
             </List>
 
             <Text color="gray.700" mt={4}>
-              My aim is to give you the best path forward so that you can master the practice to get the energy you want to create the life you desire. 
+              My aim is to give you the best path forward to help you master the practice and get the energy you want to create the life you desire. 
             </Text>
 
             <Divider borderColor="gray.200" my={8} w="100%" />
