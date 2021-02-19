@@ -46,7 +46,7 @@ const Index = () => (
             </Text>
 
             <Text color="gray.700" mt={4}>
-              I’ve built the tool kit that shows you how to cultivate and refine your life force energy effectively.
+              I’ve built the tool kit that teaches how you to cultivate and use it effectively.
             </Text>
 
             <Text color="gray.700" mt={4}>
