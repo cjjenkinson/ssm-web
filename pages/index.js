@@ -79,9 +79,9 @@ const Index = () => (
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              Membership is currently in closed beta. 
-              You can get started with it sooner by joining the waiting list. 
-              You will join a private community of early members helping us shape the Self Sourced experience.  
+              Using the app is currently in closed beta. 
+              You can get started with it sooner by joining the waiting list.  
+              To secure your priority registration for the next membership opportunity, submit your email and I will contact you directly.
             </Text>
           
             <Subscribe />
