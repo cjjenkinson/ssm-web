@@ -78,9 +78,9 @@ const Index = () => (
             </Text>
             
             <Text color="gray.700" mt={4}>
-              - A self-paced workshop co-created with world leading sexuality coaches covering clearing toxic sexual habits around porn and self pleasure, ejaculation control, post ejaculation recovery protocols, conscious intimacy (having sex with retention), breaking through flatlines and emotional blockages, managing overflowing energy and transmuting energy to fully sustained benefits. Includes reocrding video/audio integration practices: Qi Gong, breathwork routines and meditations.
-              - The (source) Journal - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
-              - 12 months accessto the Self Sourced iOS and Android app - A dedicated tracking app to easily track your practice with daily check prompts designed to help you get actionable insights about your practice so that you can measure its impact in your life. New features coming throughout the year.
+              - A self-paced workshop co-created with world leading sexuality coaches covering topics such as clearing toxic sexual habits around porn and self pleasure, ejaculation control, post ejaculation recovery, conscious intimacy (having sex with retention), breaking through flatlines and emotional blockages, managing overflowing energy (anger, sexual fustration), transmuting energy to fully sustained benefits. Includes recorded video/audio integration routines covering Qi Gong, breathwork and meditations.
+              - A copy of The (Source) Journal - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
+              - 12 months access to the Self Sourced iOS and Android app - A dedicated tracking app to easily track your practice with daily check prompts designed to help you get actionable insights so that you can measure its impact in your life. New features will be added throughout the year.
             </Text>
 
             <Heading
