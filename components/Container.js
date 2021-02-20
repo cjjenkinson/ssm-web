@@ -54,7 +54,7 @@ const Container = ({ children }) => {
           </Box>
           <Box mr={4}>
             <NextLink href="/blog" passHref>
-              Journal
+              Blog
             </NextLink>
           </Box>
         </Flex>

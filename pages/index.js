@@ -54,15 +54,33 @@ const Index = () => (
               size="lg"
               fontWeight="bold"
             >
-              The tool kit for an effective semen retention practice
+              The retainers tool kit
             </Heading>
 
-            <Text color="gray.700" mt={4} fontSize="lg">
-              An effective practice starts by understanding its impact. 
+            <Text color="gray.700" mt={4}>
+              unsure where to start?
             </Text>
 
             <Text color="gray.700" mt={4}>
-              The Self Sourced app makes it easy to track your practice so that you can be clear on how much of an impact it is having in your life. It is an easy to use retention tracking tool with daily check prompts designed to help you get actionable insights about your practice. 
+              struggle with porn addiction and habitual masturbation?
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              struggled to break past a few days to feel real benefits?
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              Everything you need for an effective, lasting semen retention practice. 
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              Includes:
+            </Text>
+            
+            <Text color="gray.700" mt={4}>
+              - A self-paced workshop co-created with world leading sexuality coaches covering clearing toxic sexual habits around porn and self pleasure, ejaculation control, post ejaculation recovery protocols, conscious intimacy (having sex with retention), breaking through flatlines and emotional blockages, managing overflowing energy and transmuting energy to fully sustained benefits. Includes reocrding video/audio integration practices: Qi Gong, breathwork routines and meditations.
+              - The (source) Journal - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
+              - 12 months accessto the Self Sourced iOS and Android app - A dedicated tracking app to easily track your practice with daily check prompts designed to help you get actionable insights about your practice so that you can measure its impact in your life. New features coming throughout the year.
             </Text>
 
             <Heading
@@ -77,9 +95,8 @@ const Index = () => (
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              Using the app is currently in closed beta. 
-              You can get started with it sooner by joining the waiting list.  
-              To secure your priority registration for the next membership opportunity, submit your email and I will contact you directly.
+              Membership is currently in invite only beta. To secure your priority registration 
+              for the next membership opportunity, submit your email and I will contact you directly.
             </Text>
           
             <Subscribe />
@@ -154,6 +171,15 @@ const Index = () => (
                 activate the great depths of awareness, power, and strength within you
               </ListItem>
             </List>
+
+            <Text color="gray.700" mt={4} fontSize="lg">
+              Who is the tool kit created for?
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              The tool kit is created for men who are new to the practice or have struggled in the past to sustain a practice long enough to get lasting benefits.
+            </Text>
+
           </Flex>
         </Stack>
       </Container>
