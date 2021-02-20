@@ -14,7 +14,7 @@ import Container from '../components/Container';
 const url = 'https://selfsourcedman.com/about';
 const title = 'Self Sourced Man | About';
 const description =
-  'Self Sourced Man is a self-development platform dedicated to providing instruction, tools and support to drive improved mental, physical and energetic well-being for men.';
+  'Self Sourced Man is a self-development platform dedicated to driving improved mental, physical and energetic well-being for men.';
 
 const About = () => {
   return (
@@ -54,15 +54,23 @@ const About = () => {
             />
 
             <Text mb={4}>
-              Self Sourced Man is a self-development platform to driving improved mental, physical and energetic well-being for men.
+              Self Sourced Man is a self-development platform dedicated to driving improved mental, physical and energetic well-being for men.
             </Text>
 
             <Text mb={4}>
-             I am commited to raising the wellbeing standards for men and getting them connected to their sexual energy as a foundation to live from. I help men reprogram disruptive sexual habits and ineffective sexual beliefs that has eroded their ability to relate to the world preventing them from having the relationships and life they truly desire.
+              Living life from a sustainable source of energy, confidence and vitality is the core principle of living as a Self Sourced Man.
             </Text>
 
             <Text mb={4}>
-              Living life from a sustainable source of energy, confidence and vitality is the core principle of living as a Self Sourced Man. - Cameron Jenkinson
+              I am commited to raising the wellbeing standards for men and getting them connected to their sexual energy as a foundation to live from.
+            </Text>
+
+            <Text mb={4}>
+              I want all men to reprogram their disruptive sexual habits and ineffective sexual beliefs that has eroded their ability to relate to the world preventing them from having the relationships and life they truly desire.
+            </Text>
+
+            <Text mb={4}>
+              - Cameron Jenkinson
             </Text>
           </Flex>
         </Stack>

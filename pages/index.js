@@ -54,15 +54,11 @@ const Index = () => (
               size="lg"
               fontWeight="bold"
             >
-              The retainers tool kit
+              Retainers tool kit
             </Heading>
 
             <Text color="gray.700" mt={4}>
-              unsure where to start?
-            </Text>
-
-            <Text color="gray.700" mt={4}>
-              struggle with porn addiction and habitual masturbation?
+              heard about semen retention but are unsure where to start?
             </Text>
 
             <Text color="gray.700" mt={4}>
@@ -74,13 +70,15 @@ const Index = () => (
             </Text>
 
             <Text color="gray.700" mt={4}>
-              Includes:
+              - A self-paced workshop co-created with a world leading mens sexuality coach to teach you how to master semen retention. Includes recorded video/audio integration routines covering Qi Gong, breathwork and meditation.
             </Text>
-            
+
             <Text color="gray.700" mt={4}>
-              - A self-paced workshop co-created with world leading sexuality coaches covering topics such as clearing toxic sexual habits around porn and self pleasure, ejaculation control, post ejaculation recovery, conscious intimacy (having sex with retention), breaking through flatlines and emotional blockages, managing overflowing energy (anger, sexual fustration), transmuting energy to fully sustained benefits. Includes recorded video/audio integration routines covering Qi Gong, breathwork and meditations.
               - A copy of The (Source) Journal - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
-              - 12 months access to the Self Sourced iOS and Android app - A dedicated tracking app to easily track your practice with daily check prompts designed to help you get actionable insights so that you can measure its impact in your life. New features will be added throughout the year.
+            </Text>
+
+            <Text color="gray.700" mt={4}>
+              - 12 months access to the Self Sourced iOS and Android app - A dedicated tracking app to easily track your practice with daily check prompts designed to help you get actionable insights so that you can measure its impact in your life.
             </Text>
 
             <Heading
@@ -179,7 +177,6 @@ const Index = () => (
             <Text color="gray.700" mt={4}>
               The tool kit is created for men who are new to the practice or have struggled in the past to sustain a practice long enough to get lasting benefits.
             </Text>
-
           </Flex>
         </Stack>
       </Container>
