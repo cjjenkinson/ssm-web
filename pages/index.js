@@ -51,6 +51,7 @@ const Index = () => (
               letterSpacing="tight"
               mt={4}
               as="h2"
+              size="md"
               size="lg"
               fontWeight="bold"
             >
@@ -58,11 +59,11 @@ const Index = () => (
             </Heading>
 
             <Text mt={4} fontSize="lg">
-              heard about semen retention but are unsure where to start?
+              Have you heard about semen retention but were unsure where to start?
             </Text>
 
             <Text mt={4} fontSize="lg">
-              struggled to break past a few days to feel real benefits?
+              Have you struggled to break past a few days to feel real benefits?
             </Text>
 
             <Text mt={4} fontSize="lg">
@@ -78,15 +79,23 @@ const Index = () => (
             </Text>
 
             <Text mt={4} fontSize="lg">
-              - 12 months access to the Self Sourced iOS and Android app - A dedicated tracking app to easily track and measure your practice to help you get actionable insights its impact.
+              - 12 months access to the Self Sourced iOS and Android app - A dedicated tracking app to easily track and measure your practice to help you get actionable insights to understand its impact.
             </Text>
 
             <Text mt={4} fontSize="lg">
-              I created this tool kit so that you can put your best foot forward for using your sexual energy to improve your well-being and creating more of what you want in your life.
+              I created this tool kit so that you can put your best foot forward for with this practice. Cultivating and using your sexual energy is a powerful way of improving your well-being and creating more of what you want in your life. 
             </Text>
 
             <Text mt={4} fontSize="lg">
-              If you are new to it or have struggled in the past to sustain a practice long enough to get lasting benefits then this is the tool kit for you. But I only invite you to start the journey if you are serious about mastering this practice.
+              I estimate that less than 1% of men in the world use this approach to personal mastery. That is because it is hard and it goes everything we have been conditioned to believe about sexuality.
+            </Text>
+
+            <Text mt={4} fontSize="lg">
+              If you are new to semen retention or have struggled to sustain a practice in the past then I have create this tool kit for you. 
+            </Text>
+
+            <Text mt={4} fontSize="lg">
+              But I only invite you to start the journey if you are serious about mastering this practice. 
             </Text>
 
             <Text mt={4} fontSize="lg">
@@ -103,7 +112,7 @@ const Index = () => (
 
             <Heading
               letterSpacing="tight"
-              mt={4}
+              mt={8}
               as="h2"
               size="md"
               size="lg"
