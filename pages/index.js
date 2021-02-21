@@ -8,7 +8,9 @@ import {
   List,
   ListItem,
   Divider,
+  Link,
 } from '@chakra-ui/core';
+import Image from 'next/image'
 
 import Container from '../components/Container';
 import Subscribe from '../components/Subscribe';
@@ -38,28 +40,47 @@ const Index = () => (
               size="2xl"
               fontWeight="bold"
             >
-              Master semen retention, unlock a new you.
+              Raise your wellbeing standards
             </Heading>
 
             <Text mb={4} fontSize="xl">
-              The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
+              Dedicated to driving improved mental, physical and energetic well-being for men.
             </Text>
 
             <Divider borderColor="gray.200" my={8} w="100%" />
+
+            <Box>
+              <Image 
+                src='/static/images/rtbg.png'
+                alt="Retainers Tool Kit"
+                width={600}
+                height={300}
+              />
+            </Box>
 
             <Heading
               letterSpacing="tight"
               mt={4}
               as="h2"
               size="md"
-              size="lg"
+              size="xl"
               fontWeight="bold"
             >
               Retainers tool kit
             </Heading>
 
+            <Heading
+              mt={4}
+              mb={4}
+              as="h4"
+              size="md"
+              fontWeight="bold"
+            >
+              The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
+            </Heading>
+
             <Text mt={4} fontSize="lg">
-              Have you heard about semen retention but were unsure where to start?
+              Have you heard about <Link href="#semen-retention" textDecoration="underline">semen retention</Link> but were unsure where to start?
             </Text>
 
             <Text mt={4} fontSize="lg">
@@ -67,7 +88,11 @@ const Index = () => (
             </Text>
 
             <Text mt={4} fontSize="lg">
-              Everything you need for an effective, lasting semen retention practice. 
+              The Ratainers tool kit has everything you need for an effective, lasting semen retention practice. 
+            </Text>
+
+            <Text mt={4} fontSize="lg">
+              Includes:
             </Text>
 
             <Text mt={4} fontSize="lg">
@@ -75,15 +100,15 @@ const Index = () => (
             </Text>
 
             <Text mt={4} fontSize="lg">
-              - A copy of The (Source) Journal - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
+              - A copy of The (Source) Journal - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes. 
             </Text>
 
             <Text mt={4} fontSize="lg">
-              - 12 months access to the Self Sourced iOS and Android app - A dedicated tracking app to easily track and measure your practice to help you get actionable insights to understand its impact.
+              - 12 months access to the Self Sourced iOS and Android app - A dedicated tracking app to easily track and measure your practice to help you get actionable insights to understand its impact. 
             </Text>
 
             <Text mt={4} fontSize="lg">
-              I created this tool kit so that you can put your best foot forward with this practice. Cultivating and using your sexual energy is a powerful way of improving your well-being and creating more of what you want in your life. 
+              I created this tool kit so that you can put your best foot forward with this practice.
             </Text>
 
             <Text mt={4} fontSize="lg">
@@ -91,7 +116,11 @@ const Index = () => (
             </Text>
 
             <Text mt={4} fontSize="lg">
-              I estimate that less than 1% of men in the world use this approach to personal mastery. That is because it is hard. It goes everything we have been conditioned to believe about sexuality.
+              Less than 1% of men in the world use this approach to personal mastery. Why? because it is hard. It goes against our instinct and everything we have been conditioned to believe about sexuality.
+            </Text>
+
+            <Text mt={4} fontSize="lg">
+              But I know and you know that the practice makes sense to you. Something inside of you know it feels right and the timing behind why you are being called to start this journey is why you found this tool kit. I believe it. 
             </Text>
 
             <Text mt={4} fontSize="lg">
@@ -142,6 +171,7 @@ const Index = () => (
               size="md"
               size="lg"
               fontWeight="bold"
+              id='semen-retention'
             >
               What is Semen Retention?
             </Heading>
