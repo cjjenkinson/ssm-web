@@ -41,7 +41,7 @@ const Index = () => (
               Master semen retention, unlock a new you.
             </Heading>
 
-            <Text mb={4} fontSize="lg">
+            <Text mb={4} fontSize="xl">
               The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy. 
             </Text>
 
@@ -57,47 +57,47 @@ const Index = () => (
               Retainers tool kit
             </Heading>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               heard about semen retention but are unsure where to start?
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               struggled to break past a few days to feel real benefits?
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               Everything you need for an effective, lasting semen retention practice. 
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               - A self-paced workshop co-created with a world leading mens sexuality coach to teach you how to master semen retention. Includes recorded video/audio integration routines covering Qi Gong, breathwork and meditation.
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               - A copy of The (Source) Journal - A daily journalling guide to help you dive deeper into reflecting on your experiences, challenges and changes.
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               - 12 months access to the Self Sourced iOS and Android app - A dedicated tracking app to easily track and measure your practice to help you get actionable insights its impact.
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               I created this tool kit so that you can put your best foot forward for using your sexual energy to improve your well-being and creating more of what you want in your life.
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               If you are new to it or have struggled in the past to sustain a practice long enough to get lasting benefits then this is the tool kit for you. But I only invite you to start the journey if you are serious about mastering this practice.
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               How would you feel if you could easily cultivate your sexual energy for days, weeks or months at a time?
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               What would your life look like if you could finally show up with the confidence, presence and energy you are cutting yourself off from every day?
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               Are you ready to start committing to a journey of unlocking a new, healthier and more confident you?
             </Text>
 
@@ -132,7 +132,7 @@ const Index = () => (
               What is Semen Retention?
             </Heading>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               Good question. Semen Retention is a centuries-old practice that allows you to harness your body’s vital energy to drive improved mental, physical and energetic well-being.
             </Text>
 
@@ -144,7 +144,7 @@ const Index = () => (
               - Reid, Daniel. The Tao Of Health, Sex And Longevity . 
             </Text>
 
-            <Text mt={4}>
+            <Text mt={4} fontSize="lg">
               With a dedicated practice you will expect to gain these benefits:
             </Text>
           
