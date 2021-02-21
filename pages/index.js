@@ -83,19 +83,23 @@ const Index = () => (
             </Text>
 
             <Text mt={4} fontSize="lg">
-              I created this tool kit so that you can put your best foot forward for with this practice. Cultivating and using your sexual energy is a powerful way of improving your well-being and creating more of what you want in your life. 
+              I created this tool kit so that you can put your best foot forward with this practice. Cultivating and using your sexual energy is a powerful way of improving your well-being and creating more of what you want in your life. 
             </Text>
 
             <Text mt={4} fontSize="lg">
-              I estimate that less than 1% of men in the world use this approach to personal mastery. That is because it is hard and it goes everything we have been conditioned to believe about sexuality.
+              Cultivating and using your sexual energy is a powerful way of improving your well-being and creating more of what you want in your life. 
             </Text>
 
             <Text mt={4} fontSize="lg">
-              If you are new to semen retention or have struggled to sustain a practice in the past then I have create this tool kit for you. 
+              I estimate that less than 1% of men in the world use this approach to personal mastery. That is because it is hard. It goes everything we have been conditioned to believe about sexuality.
             </Text>
 
             <Text mt={4} fontSize="lg">
-              But I only invite you to start the journey if you are serious about mastering this practice. 
+              If you are new to semen retention or have struggled to sustain a practice in the past then I have created this tool kit for you. 
+            </Text>
+
+            <Text mt={4} fontSize="lg">
+              However I only invite you to use it if you are serious about mastering this practice. 
             </Text>
 
             <Text mt={4} fontSize="lg">
@@ -122,7 +126,8 @@ const Index = () => (
             </Heading>
 
             <Text mt={4}>
-              Membership is currently in invite only. To secure your priority registration 
+              Membership is currently invite only. This is because I am serving current members individually
+              to make sure they are served to the highest degree. To secure your priority registration 
               for the next membership opportunity, submit your email and I will contact you directly.
             </Text>
           
@@ -168,7 +173,7 @@ const Index = () => (
                 more direction and purpose
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
-                overcome disruptive sexual habits such as porn addiction and habitual masturbation
+                overcome disruptive sexual habits such as porn addiction and habitual masturbation with ease
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 better connection with women and more sexual confidence
@@ -192,7 +197,7 @@ const Index = () => (
                 shift your attention from compulsive thinking and worrying to resting in the simple awareness of presence
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
-                attract more abundance to your life
+                manifest and attract more abundance to your life
               </ListItem>
               <ListItem fontWeight="medium" fontSize="mg">
                 activate the great depths of awareness, power, and strength within you
