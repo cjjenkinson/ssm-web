@@ -60,7 +60,7 @@ const Index = () => (
             </Heading> 
 
             <Text mb={4} fontSize="lg">
-              I know your time is valuable so I’m going to explain exactly what this is as if I was stood next to you in an elevator.
+              I know your time is valuable so I’m going to explain exactly what this is.
             </Text>
 
             <Text mb={4} fontSize="lg">
@@ -73,6 +73,10 @@ const Index = () => (
 
             <Text mt={4} fontSize="lg">
               Right now I answer questions on the most common issues and share insights from my research about the practice.
+            </Text>
+
+            <Text mt={4} fontSize="lg">
+              Alongside this I am working on a dedicated tracking app, Retain that helps you easily track and measure your practice. It prompts you daily for a check in that will help you collect the data to give you actionable insights about the impact of your practice on your wellbeing. 
             </Text>
 
             <Heading
