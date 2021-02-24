@@ -1,6 +1,6 @@
 const title = 'Self Sourced Man';
 const description =
-  'The retainers tool kit everything you need for an effective semen retention practice. Helping men raise their wellbeing standards and connected to their sexual energy as a foundation to live from.';
+  'Helping men master semen retention so that they can raise their wellbeing standards to create the life they truly desire.';
 
 
 const SEO = {

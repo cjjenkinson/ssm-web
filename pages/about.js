@@ -62,7 +62,7 @@ const About = () => {
             </Text>
 
             <Text mb={4}>
-              I am commited to helping men raise their wellbeing standards and them connected to their sexual energy as a foundation to live from.
+              I am commited to helping men raise their wellbeing standards and getting them connected to their sexual energy as a foundation to live from.
             </Text>
 
             <Text mb={4}>
