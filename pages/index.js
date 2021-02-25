@@ -64,7 +64,7 @@ const Index = () => (
             </Text>
 
             <Text mb={4} fontSize="lg">
-              Self Sourced Man is dedicated to helping men master the semen retention lifestyle.
+              Self Sourced Man is dedicated to helping men master the semen retention lifestyle and related practices around sexuality, wellbeing and inner work.
             </Text>
 
             <Text mb={4} fontSize="lg">
@@ -76,7 +76,7 @@ const Index = () => (
             </Text>
 
             <Text mt={4} fontSize="lg">
-              Alongside this I am working on a dedicated tracking app, Retain that helps you easily track and measure your practice. It prompts you daily for a check in that will help you collect the data to give you actionable insights about the impact of your practice on your wellbeing. 
+              Alongside this I am working on a communnity with all of the tools, instruction and support needed to master the practice. The tools include a daily check in to track your retention journey. By collecting your daily retention progress you can easily collect the data needed to give you actionable insights about the impact the practice is having on your wellbeing. 
             </Text>
 
             <Heading
