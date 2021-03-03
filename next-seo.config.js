@@ -1,4 +1,4 @@
-const title = 'Self Sourced Man';
+const title = 'Self Sourced Man | Unleash your masculine potential';
 const description =
   'Building tools to help men master the semen retention lifestyle. Raise your wellbeing standards and create the life you truly desire.';
 

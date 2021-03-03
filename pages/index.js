@@ -17,7 +17,7 @@ import Subscribe from '../components/Subscribe';
 const url = 'https://selfsourcedman.com';
 const title = 'Self Sourced Man';
 const description =
-  'Tools that help men master the semen retention lifestyle. Raise your wellbeing standards and create the life you truly desire.';
+  'Tools to help men master the semen retention lifestyle. Raise your wellbeing standards and create the life you truly desire.';
 
 const Index = () => (
   <>
@@ -54,11 +54,11 @@ const Index = () => (
                 size="2xl"
                 fontWeight="bold"
               >
-                Master semen retention, unlock a new you.
+                Unleash your masculine potential
               </Heading>
 
               <Text mb={4} fontSize="2xl">
-                Tools to help you master and deepen your practice. 
+                Tools to help you learn and master semen retention.
               </Text>
 
               <Divider borderColor="gray.200" my={8} w="100%" />
@@ -90,6 +90,8 @@ const Index = () => (
               </Text>
 
               <Subscribe headline="Subscribe to my weekly newsletter" />
+
+
             </Flex>
           </Stack>
         </Container>
