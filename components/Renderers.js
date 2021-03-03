@@ -180,7 +180,7 @@ const Renderers = {
   paragraph: (props) => {
     const { value } = props.node.children[0];
 
-    return <Text as="p" mt={4} lineHeight="tall">{value}</Text>
+    return <Text as="p" mt={4} fontSize={18} lineHeight="tall">{value}</Text>
   },
   list: (props) => <Box as="ul" pt={2} pl={4} ml={2} {...props} />,
   list: (props) => <Box as="ol" pt={2} pl={4} ml={2} {...props} />,

@@ -19,7 +19,7 @@ import { ContentfulService } from '../services/contentful';
 const url = 'https://selfsourcedman.com/blog';
 const title = 'Self Sourced Man | Blog';
 const description =
-  'The tool kit for an effective semen retention practice. Improve your wellbeing, unlock more energy and design the life you want to live.'
+  'Tools that help men master the semen retention lifestyle. Raise your wellbeing standards and create the life you truly desire.'
 
 const Blog = (props) => {
   const [searchValue, setSearchValue] = useState('');
@@ -61,9 +61,10 @@ const Blog = (props) => {
             justifyContent="flex-start"
             alignItems="flex-start"
             maxWidth="700px"
+            w="100%"
           >
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-              The (source) Journal
+              All Posts
             </Heading>
             <InputGroup my={4} mr={4} w="100%">
               <Input
@@ -81,11 +82,8 @@ const Blog = (props) => {
             justifyContent="flex-start"
             alignItems="flex-start"
             maxWidth="700px"
-            mt={8}
+            mt={2}
           >
-            <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-              All Posts
-            </Heading>
             {!filteredBlogPosts.length && 'No posts found.'}
             {filteredBlogPosts.map((entry) => (
               <Post key={entry.id} {...entry} />

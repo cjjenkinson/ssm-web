@@ -48,10 +48,7 @@ Router.events.on('routeChangeComplete', () => {
 const App = ({ Component, pageProps }) => {
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
-      if (!window.GA_INITIALIZED) {
-        initGA()
-        window.GA_INITIALIZED = true
-      }
+      initGA()
     }
   }, []);
 

@@ -10,6 +10,7 @@ import {
   Stack,
   Avatar,
   Link,
+  Divider,
   Box
 } from '@chakra-ui/core';
 
@@ -58,7 +59,7 @@ const Post = ({ article, tags, suggestedArticles }) => {
           maxWidth="700px"
           w="100%"
         >
-          <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
+          <Heading mb={2} mt={8} as="h1" size="xl">
             {article.title}
           </Heading>
           <Flex
@@ -67,7 +68,7 @@ const Post = ({ article, tags, suggestedArticles }) => {
             direction={['column', 'row']}
             mt={2}
             w="100%"
-            mb={4}
+            mb={2}
           >
             <Flex align="center">
               <Avatar
@@ -85,7 +86,16 @@ const Post = ({ article, tags, suggestedArticles }) => {
           </Flex>
         </Flex>
         <Box>
-          <ReactMarkdown plugins={[gfm]} className="markdown" children={article.body} />
+          {article?.spotifyEmbedUri && (
+            <Box>
+              <iframe src={article.spotifyEmbedUri} width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </Box>
+          )}
+
+          <ReactMarkdown plugins={[gfm]} className="markdown" children={article.body} renderers={Renderers} />
+
+          <Divider borderColor="gray.200" my={8} w="100%" />
+
           <Subscribe type="Blog" headline="Subscribe for future posts:" />
         </Box>
       </Stack>
@@ -102,16 +112,10 @@ export async function getStaticProps({ params }) {
 
   const tags = article.tags ? article.tags.map((tag) => tag.sys.id) : [];
 
-  const suggestedArticles = await contentfulService.fetchSuggestions(
-    tags,
-    article.slug
-  );
-
   return { 
     props: { 
       article, 
       tags,
-      suggestedArticles 
     }
   };
 };

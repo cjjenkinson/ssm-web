@@ -1,7 +1,6 @@
 import { createClient } from 'contentful';
 
 export const CONTENT_TYPE_BLOGPOST = 'blogPost';
-export const CONTENT_TYPE_PODCAST = 'podcast';
 export const CONTENT_TYPE_PERSON = 'author';
 export const CONTENT_TYPE_TAGS = 'tag';
 
@@ -20,30 +19,17 @@ export class ContentfulService {
    */
   mapBlogPost(entries) {
     return entries.map(({ sys, fields }) => ({
-      id: sys.id,
-      title: fields.title,
-      description: fields.description,
-      heroImage: fields.heroImage.fields.file.url,
-      slug: fields.slug,
-      tags: null,
-      publishedAt: fields.publishedAt
-        ? new Date(fields.publishedAt).toISOString()
-        : new Date(sys.createdAt).toISOString()
-    }));
-  }
-
-  mapPodcastEpisode(entries) {
-    return entries.map(({ sys, fields }) => ({
-      id: sys.id,
-      episode: fields.episode,
-      title: fields.title,
-      body: fields.mainBody,
-      heroImage: fields.heroImage.fields.file.url,
-      slug: fields.slug,
-      publishedAt: fields.publishedAt
-        ? new Date(fields.publishedAt).toISOString()
-        : new Date(sys.createdAt).toISOString()
-    }));
+        id: sys.id,
+        title: fields.title,
+        description: fields.description,
+        heroImage: fields.heroImage.fields.file.url,
+        slug: fields.slug,
+        tags: null,
+        publishedAt: fields.publishedAt
+          ? new Date(fields.publishedAt).toISOString()
+          : new Date(sys.createdAt).toISOString()
+      })
+    );
   }
 
   async fetchPostBySlug(slug) {
@@ -104,32 +90,6 @@ export class ContentfulService {
     }
   }
 
-  async getPodcastEntries(
-    { limit, skip, tag } = {
-      limit: 5,
-      skip: 0,
-      tag: ''
-    }
-  ) {
-    try {
-      const contents = await this.client.getEntries({
-        include: 1,
-        limit,
-        skip,
-        order: 'fields.publishDate',
-        content_type: CONTENT_TYPE_PODCAST
-      });
-
-      const entries = this.mapPodcastEpisode(contents.items);
-
-      const total = contents.total;
-
-      return { entries, total, limit, skip };
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
   async getPostBySlug(slug) {
     try {
       const content = await this.fetchPostBySlug(slug);
@@ -149,32 +109,11 @@ export class ContentfulService {
         slug: entry.fields.slug,
         body: entry.fields.mainBody,
         title: entry.fields.title,
+        spotifyEmbedUri: entry.fields.spotifyEmbedUri,
         description: entry.fields.description,
         tags: null,
         heroImage: { url: entry.fields.heroImage.fields.file.url },
         author: { ...author, id: entry.fields.author.sys.id },
-        publishedAt: entry.fields.publishedAt
-          ? new Date(entry.fields.publishedAt).toISOString()
-          : new Date(entry.sys.createdAt).toISOString()
-      };
-    } catch (error) {
-      console.error(error);
-    }
-  }
-
-  async getPodcastBySlug(slug) {
-    try {
-      const content = await this.fetchPodcastBySlug(slug);
-
-      const entry = content.items[0];
-
-      return {
-        id: entry.sys.id,
-        episodeNumber: entry.fields.episode,
-        slug: entry.fields.slug,
-        title: entry.fields.title,
-        body: entry.fields.mainBody,
-        heroImage: { url: entry.fields.heroImage.fields.file.url },
         publishedAt: entry.fields.publishedAt
           ? new Date(entry.fields.publishedAt).toISOString()
           : new Date(entry.sys.createdAt).toISOString()
