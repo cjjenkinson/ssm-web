@@ -39,7 +39,7 @@ const Index = () => (
             justifyContent="center"
             alignItems="flex-start"
             m={['0 auto', null, '0 auto 4rem auto']}
-            maxWidth="700px"
+            maxWidth="600px"
             p={8}
           >
             <Flex
