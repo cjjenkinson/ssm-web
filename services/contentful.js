@@ -109,7 +109,7 @@ export class ContentfulService {
         slug: entry.fields.slug,
         body: entry.fields.mainBody,
         title: entry.fields.title,
-        spotifyEmbedUri: entry.fields.spotifyEmbedUri,
+        spotifyEmbedUri: entry.fields.spotifyEmbedUri || null,
         description: entry.fields.description,
         tags: null,
         heroImage: { url: entry.fields.heroImage.fields.file.url },
