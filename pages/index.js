@@ -17,7 +17,7 @@ import Subscribe from '../components/Subscribe';
 const url = 'https://selfsourcedman.com';
 const title = 'Self Sourced Man';
 const description =
-  'Tools to help men master the semen retention lifestyle. Raise your wellbeing standards and create the life you truly desire.';
+  'Self Sourced Man is community for men practicing sexual self mastery through techniques like semen retention, sacred sexuality and energy work.';
 
 const Index = () => (
   <>
@@ -94,7 +94,7 @@ const Index = () => (
               <Text mb={4} fontSize="lg">
                 ✅ Build better habits by surrounding yourself with men practicing the work daily  <br />
                 ✅ Stay accountable by publicly sharing your progress  <br />
-                ✅ Get support & advice from brothers that each have their own unique insights and experiences  <br />
+                ✅ Get support & advice from brothers with their own unique insights and experiences  <br />
               </Text>
 
               <Heading
@@ -108,9 +108,9 @@ const Index = () => (
               </Heading>
 
               <Text mb={4} fontSize="lg">
-                - Complete your daily check in before the end of the day  <br />
-                - Ask questions and share insights to open up discussions  <br />
-                - Connect and bond on our monthly calls  <br />
+                - Be consistent: Complete a daily check in before the end of the day  <br />
+                - Be seen: Ask questions and share insights to open up discussions  <br />
+                - Be supportive: Connect and bond with brothers on our monthly circle calls  <br />
               </Text>
 
               <Heading
@@ -148,8 +148,38 @@ const Index = () => (
               </Text>
               
               <Text mt={4} fontSize="lg">
-                That support can dive into and get to new a understanding about how you are feeling that you might not be able to fully reach on your own. 
+                This support can help dive deeper into how you are feeling that you would not be able to reach on your own. 
               </Text>
+
+              <Heading
+                mt={4}
+                as="h4"
+                size="md"
+                fontWeight="bold"
+              >
+                I am new to all of this work, why should I join?
+              </Heading> 
+
+              <Text mt={4} fontSize="lg">
+                I want this to be the best place for you to learn and take the right steps into this work.
+                Learning the techniques is one of the easier aspects of the practice where it can be picked up from books.
+              </Text>
+              
+              <Text mt={4} fontSize="lg">
+                The hardest part about this work is the <strong>doing</strong> part. When you start actually doing it you will experience problems 
+                that you require support and advice to work through. Getting help from other men doing this work gives you the best chance 
+                to succesfully continue this work long term. I also believe that there is nothing more impactful than a structured accountability
+                system for building new habits.
+              </Text>
+
+              <Heading
+                mt={4}
+                as="h4"
+                size="md"
+                fontWeight="bold"
+              >
+                How do I join?
+              </Heading> 
               
               <Heading
                 mt={4}
@@ -161,11 +191,11 @@ const Index = () => (
               </Heading> 
 
               <Text mt={4} fontSize="lg">
-                Membership is free whilst we are in beta on Telegram. We limit new Members so we can serve our existing Members at the highest level. 
+                Membership is free and is within a group on Telegram. I limit new Members so I can serve existing Members at the highest level. 
                 To secure your priority registration for the next membership opportunity, submit your email and I will contact you directly.
               </Text>
 
-              <Subscribe headline="Join the waitlist to become a member" />
+              <Subscribe headline="Join the waitlist to become a member" type="MEMBERSHIP" />
             </Flex>
           </Stack>
         </Container>

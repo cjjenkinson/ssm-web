@@ -19,7 +19,7 @@ import { ContentfulService } from '../services/contentful';
 const url = 'https://selfsourcedman.com/blog';
 const title = 'Self Sourced Man | Blog';
 const description =
-  'Tools that help men master the semen retention lifestyle. Raise your wellbeing standards and create the life you truly desire.'
+  'Self Sourced Man is community for men practicing sexual self mastery through techniques like semen retention, sacred sexuality and energy work.'
 
 const Blog = (props) => {
   const [searchValue, setSearchValue] = useState('');

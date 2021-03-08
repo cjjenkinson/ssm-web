@@ -13,7 +13,7 @@ import { logEvent } from '../utils/google-analytics';
 
 import { useFacebookPixel } from '../utils/FacebookPixel';
 
-const Subscribe = ({ headline }) => {
+const Subscribe = ({ headline, type }) => {
   const [loading, setLoading] = useState(false);
   const pixel = useFacebookPixel();
   const inputEl = useRef(null);
@@ -22,9 +22,10 @@ const Subscribe = ({ headline }) => {
   const subscribe = async (e) => {
     e.preventDefault();
     setLoading(true);
-
+    
     const res = await fetch('/api/subscribe', {
       body: JSON.stringify({
+        type,
         email: inputEl.current.value
       }),
       headers: {
@@ -46,6 +47,11 @@ const Subscribe = ({ headline }) => {
       });
 
       return;
+    }
+
+    if (type == 'MEMBERSHIP') {
+      logEvent('subscribe_membership');
+      pixel.track('Lead', { content_category: 'Membership Subscriber' });
     }
 
     logEvent('subscribe');
