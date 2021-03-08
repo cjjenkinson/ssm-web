@@ -58,7 +58,7 @@ const Index = () => (
               </Heading>
 
               <Text mb={4} fontSize="2xl">
-                Self Sourced Man is a private community for men improving their wellbeing through practicing semen retention.
+              Self Sourced Man is a private community for men improving their life through semen retention and related practices around sexual self mastery.
               </Text>
 
               <Divider borderColor="gray.200" my={8} w="100%" />
