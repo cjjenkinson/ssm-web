@@ -68,7 +68,7 @@ const Index = () => (
               </Text>
 
               <Text mb={4} fontSize="lg">
-                At some point, all of us men struggle with the following:
+                At some point, all of us practicing semen retention struggle with the following:
               </Text>
 
               <Text mb={2} fontSize="lg">
