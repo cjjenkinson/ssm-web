@@ -44,7 +44,7 @@ const Container = ({ children }) => {
         >
           <Box mr={4}>
             <NextLink href="/" passHref>
-              Start here
+              Membership
             </NextLink>
           </Box>
           <Box mr={4}>
