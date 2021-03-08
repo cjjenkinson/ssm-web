@@ -17,7 +17,7 @@ import Subscribe from '../components/Subscribe';
 const url = 'https://selfsourcedman.com';
 const title = 'Self Sourced Man';
 const description =
-  'Self Sourced Man is a private community for men improving their life through semen retention and related practices around sexual self mastery.';
+  'Self Sourced Man is a private community for men improving their life through semen retention and sexual self mastery.';
 
 const Index = () => (
   <>
@@ -58,7 +58,7 @@ const Index = () => (
               </Heading>
 
               <Text mb={4} fontSize="2xl">
-                A private community for men improving their life through semen retention and related practices around sexual self mastery.
+                A private community for men improving their life through semen retention and sexual self mastery.
               </Text>
 
               <Divider borderColor="gray.200" my={8} w="100%" />

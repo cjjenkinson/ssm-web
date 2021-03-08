@@ -1,6 +1,6 @@
 const title = 'Self Sourced Man';
 const description =
-  'Self Sourced Man is a private community for men improving their life through semen retention and related practices around sexual self mastery';
+  'Self Sourced Man is a private community for men improving their life through semen retention and sexual self mastery.';
 
 const SEO = {
   title,
