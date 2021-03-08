@@ -94,7 +94,7 @@ const Index = () => (
               </Heading>
 
               <Text mb={4} fontSize="lg">
-                ✅ Build better habits by surrounding yourself with men practicing the work daily  <br />
+                ✅ Build better habits by surrounding yourself with dedicated practitioners  <br />
                 ✅ Stay accountable by publicly sharing your progress  <br />
                 ✅ Get support & advice from members with their own unique insights and experiences  <br />
               </Text>
