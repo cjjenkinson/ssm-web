@@ -17,7 +17,7 @@ import Subscribe from '../components/Subscribe';
 const url = 'https://selfsourcedman.com';
 const title = 'Self Sourced Man';
 const description =
-  'Self Sourced Man is community for men practicing sexual self mastery through techniques like semen retention, sacred sexuality and energy work.';
+  'Self Sourced Man is a private community for men improving their life through semen retention and related practices around sexual self mastery.';
 
 const Index = () => (
   <>
@@ -39,7 +39,7 @@ const Index = () => (
             justifyContent="center"
             alignItems="flex-start"
             m={['0 auto', null, '0 auto 4rem auto']}
-            maxWidth="640px"
+            maxWidth="700px"
             p={8}
           >
             <Flex
@@ -54,31 +54,33 @@ const Index = () => (
                 size="2xl"
                 fontWeight="bold"
               >
-                Unleash your masculine potential
+                Self Sourced Man
               </Heading>
 
               <Text mb={4} fontSize="2xl">
-                We are a group of brothers cultivating, harnessing and embodying together.
+                Self Sourced Man is a private community for men improving their wellbeing through practicing semen retention.
               </Text>
 
               <Divider borderColor="gray.200" my={8} w="100%" />
 
-              <Heading
-                mt={4}
-                mb={4}
-                as="h3"
-                size="lg"
-                fontWeight="bold"
-              >
-                The fastest way to a more confident, healthier and conscious life starts with cultivating your sexual energy
-              </Heading> 
-
               <Text mb={4} fontSize="lg">
-                Thanks for arriving at here. It is my belief that you arrived here for a reason. I know your time is valuable so I’m going to explain exactly what this is.
+                We are a group of brothers cultivating, harnessing and embodying together.
               </Text>
 
               <Text mb={4} fontSize="lg">
-                Self Sourced Man is community for men practicing sexual self mastery through techniques like semen retention, sacred sexuality and energy work.
+                At some point, all of us men struggle with the following:
+              </Text>
+
+              <Text mb={2} fontSize="lg">
+                1. Keeping motivation up & feeling isolated
+              </Text>
+
+              <Text mb={2} fontSize="lg">
+                2. Getting support for when things get difficult
+              </Text>
+
+              <Text mb={2} fontSize="lg">
+                2. Going further with our practice to get more from it
               </Text>
 
               <Heading
@@ -94,7 +96,7 @@ const Index = () => (
               <Text mb={4} fontSize="lg">
                 ✅ Build better habits by surrounding yourself with men practicing the work daily  <br />
                 ✅ Stay accountable by publicly sharing your progress  <br />
-                ✅ Get support & advice from brothers with their own unique insights and experiences  <br />
+                ✅ Get support & advice from members with their own unique insights and experiences  <br />
               </Text>
 
               <Heading
