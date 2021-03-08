@@ -35,7 +35,7 @@ export default async (req, res) => {
       {
         body: JSON.stringify({
           "list_ids": [
-            ontactListId
+            contactListId
           ],
           "contacts": [
             {

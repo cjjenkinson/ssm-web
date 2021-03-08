@@ -161,15 +161,19 @@ const Index = () => (
               </Heading> 
 
               <Text mt={4} fontSize="lg">
-                I want this to be the best place for you to learn and take the right steps into this work.
-                Learning the techniques is one of the easier aspects of the practice where it can be picked up from books.
+                I want this to be the safest and best place for you to learn to take the right steps into this work.
+              </Text>
+
+              <Text mt={4} fontSize="lg">
+                Learning the techniques is one of the easier aspects of the practice where it can be picked up from books. (I can send you the right material)
               </Text>
               
               <Text mt={4} fontSize="lg">
-                The hardest part about this work is the <strong>doing</strong> part. When you start actually doing it you will experience problems 
-                that you require support and advice to work through. Getting help from other men doing this work gives you the best chance 
-                to succesfully continue this work long term. I also believe that there is nothing more impactful than a structured accountability
-                system for building new habits.
+                The hardest part about this work is the <strong>doing</strong> part. You will experience problems that require support and advice to work through. 
+              </Text>
+
+              <Text mt={4} fontSize="lg">
+                Getting help from other men doing this work gives you the best chance to build the right habits within a supportive community.
               </Text>
 
               <Heading
@@ -180,18 +184,9 @@ const Index = () => (
               >
                 How do I join?
               </Heading> 
-              
-              <Heading
-                mt={4}
-                as="h4"
-                size="md"
-                fontWeight="bold"
-              >
-                How do I join?
-              </Heading> 
 
               <Text mt={4} fontSize="lg">
-                Membership is free and is within a group on Telegram. I limit new Members so I can serve existing Members at the highest level. 
+                Membership is free whilst it is in beta. I limit new Members so I can serve existing Members at the highest level. 
                 To secure your priority registration for the next membership opportunity, submit your email and I will contact you directly.
               </Text>
 
