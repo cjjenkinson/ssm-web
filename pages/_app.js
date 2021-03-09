@@ -11,7 +11,7 @@ import Head from 'next/head';
 import theme from '../styles/theme';
 import SEO from '../next-seo.config';
 
-import { initGA, logPageView } from '../utils/google-analytics';
+import { logPageView } from '../utils/google-analytics';
 import { FacebookPixel } from '../utils/FacebookPixel';
 
 const GlobalStyle = ({ children }) => (
@@ -46,12 +46,6 @@ Router.events.on('routeChangeComplete', () => {
 });
 
 const App = ({ Component, pageProps }) => {
-  useEffect(() => {
-    if (process.env.NODE_ENV === 'production') {
-      initGA()
-    }
-  }, []);
-
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle>
