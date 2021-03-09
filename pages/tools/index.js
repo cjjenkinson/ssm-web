@@ -12,8 +12,8 @@ import {
 } from '@chakra-ui/core';
 import Image from 'next/image'
 
-import Container from '../components/Container';
-import Subscribe from '../components/Subscribe';
+import Container from '../../components/Container';
+import Subscribe from '../../components/Subscribe';
 
 const Index = () => (
   <Box as="main">

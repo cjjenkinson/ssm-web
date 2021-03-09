@@ -23,7 +23,7 @@ const Container = ({ children }) => {
         flexDirection="row"
         justifyContent="space-between"
         alignItems="center"
-        maxWidth="900px"
+        maxWidth="996px"
         width="100%"
         as="nav"
         p={4}
@@ -33,7 +33,7 @@ const Container = ({ children }) => {
       >
         <NextLink href="/" passHref>
           <Image 
-            width="80px"
+            width="72px"
             objectFit="cover"
             src='https://uploads-ssl.webflow.com/5fe8750bd7bed222c6db0d88/602e62ffd453615c843bd67f_logo.png'
           />
@@ -44,7 +44,12 @@ const Container = ({ children }) => {
         >
           <Box mr={4}>
             <NextLink href="/" passHref>
-              Membership
+              Start here
+            </NextLink>
+          </Box>
+          <Box mr={4}>
+            <NextLink href="/community" passHref>
+              Community
             </NextLink>
           </Box>
           <Box mr={4}>
