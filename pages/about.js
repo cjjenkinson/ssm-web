@@ -46,7 +46,7 @@ const About = () => {
             maxWidth="700px"
           >
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-              About 
+              Cultivate | Integrate | Embody
             </Heading>
 
             <Image 

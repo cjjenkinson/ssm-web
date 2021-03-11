@@ -48,11 +48,6 @@ const Container = ({ children }) => {
             </NextLink>
           </Box>
           <Box mr={4}>
-            <NextLink href="/community" passHref>
-              Community
-            </NextLink>
-          </Box>
-          <Box mr={4}>
             <NextLink href="/about" passHref>
               About
             </NextLink>

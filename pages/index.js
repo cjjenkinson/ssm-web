@@ -61,7 +61,7 @@ const Index = () => (
               </Heading>
 
               <Text mb={4} fontSize="2xl">
-                Cultivate | Integrate | Embody
+                The fastest way to a more confident, healthier and conscious life.
               </Text>
 
               <Divider borderColor="gray.200" my={8} w="100%" />
@@ -75,28 +75,158 @@ const Index = () => (
               </Text>
 
               <Text mb={2} fontSize="lg">
-                I am commited to helping men raise their wellbeing standards and use their sexual energy as a way to create the life they truly desire.
+                The aim is to help men raise their wellbeing standards and start living life with more energy, confidence and vitality through these practices.
               </Text>
 
               <Text mb={2} fontSize="lg">
-                Here you will find the tools, instruction and support needed to start, deepen and master your semen retention practice.
+                Here you will find the tools and support to start, deepen and master your practice.
+              </Text>
+
+              <Heading
+                mt={4}
+                mb={2}
+                as="h4"
+                size="md"
+                fontWeight="bold"
+              >
+                The Community
+              </Heading>
+
+              <Text mb={4} fontSize="2xl">
+                A private community for men improving their life through the semen retention lifestyle. 
+              </Text>
+
+              <Divider borderColor="gray.200" my={8} w="100%" />
+
+              <Text mb={4} fontSize="lg">
+                We are a group of brothers cultivating, integrating and embodying together.
               </Text>
 
               <Text mb={4} fontSize="lg">
-                I am commited to making the education, tools and support practical for you so that you can easily start living life with more energy, confidence and vitality.
+                At some point, all of us practicing semen retention struggle with the following:
+              </Text>
+
+              <Text mb={2} fontSize="lg">
+                1. Keeping motivation up & feeling isolated
+              </Text>
+
+              <Text mb={2} fontSize="lg">
+                2. Getting support for when things get difficult
+              </Text>
+
+              <Text mb={2} fontSize="lg">
+                2. Going further with our practice to get more from it
+              </Text>
+
+              <Heading
+                mt={4}
+                mb={2}
+                as="h4"
+                size="md"
+                fontWeight="bold"
+              >
+                Being a part of the community will help you: 
+              </Heading>
+
+              <Text mb={4} fontSize="lg">
+                ✅ Build better habits by surrounding yourself with dedicated practitioners  <br />
+                ✅ Stay accountable by publicly sharing your progress  <br />
+                ✅ Get support & advice from members with their own unique insights and experiences  <br />
+              </Text>
+
+              <Heading
+                mt={4}
+                mb={2}
+                as="h4"
+                size="md"
+                fontWeight="bold"
+              >
+                How to get the most out of the membership
+              </Heading>
+
+              <Text mb={4} fontSize="lg">
+                - Be consistent: Complete a daily check in before the end of the day  <br />
+                - Be seen: Ask questions and share insights to open up discussions  <br />
+                - Be supportive: Connect and bond with brothers on our monthly circle calls  <br />
+              </Text>
+
+              <Heading
+                mt={4}
+                as="h4"
+                size="md"
+                fontWeight="bold"
+              >
+                What is the daily check in? 
+              </Heading>
+
+              <Text mt={4} fontSize="lg">
+                The daily check in is a two step question
               </Text>
 
               <Text mt={4} fontSize="lg">
-                I have built and designed each tool to help you master and deepen different aspects of your practice. Whichever tool you pick, it is my wish that it moves you further faster.
+                1. Whether you cultivated or had a release (ejaculation). <br />
+                2. Your current state of being for the day (grounded, happy, depleted etc) 
               </Text>
+              
+              <Text mt={4} fontSize="lg">
+                A check in message looks like this:
+              </Text>
+              
+              <Text mt={4} fontSize="lg">
+                🔮 grounded, present, strong 
+              </Text>
+              
+              <Text mt={4} fontSize="lg">
+                I’ve found the daily check in is a great tool to measure progress but even better within a group setting. 
+              </Text>
+              
+              <Text mt={4} fontSize="lg">
+                It helps you build better habits and creates opportunities for brothers to provide support for your off days. 
+              </Text>
+              
+              <Text mt={4} fontSize="lg">
+                This support can help dive deeper into how you are feeling that you would not be able to reach on your own. 
+              </Text>
+
+              <Heading
+                mt={4}
+                as="h4"
+                size="md"
+                fontWeight="bold"
+              >
+                How do I join?
+              </Heading> 
 
               <Text mt={4} fontSize="lg">
-                Already praciticing? Join the <Link href="/community">community for practitioners today</Link>
+                Membership is limited. I limit new Members so I can serve existing Members at the highest level. 
+                To secure your priority registration for the next membership opportunity, submit your email and I will contact you directly.
               </Text>
 
-              <Subscribe headline="Lets stay in touch for updates" />
+              <Subscribe headline="Join the waitlist to become a member" type="MEMBERSHIP" />
 
               <Divider borderColor="gray.200" my={8} w="100%" />
+
+              <Heading
+                mt={4}
+                as="h4"
+                size="md"
+                fontWeight="bold"
+              >
+                I am not sure it is for me, why should I join?
+              </Heading> 
+
+              <Text mt={4} fontSize="lg">
+                I want this to be the safest and best place for you to go deeper into your practice.
+              </Text>
+
+              <Text mt={4} fontSize="lg">
+                The hardest part about this work is the <strong>doing</strong> part because you will experience problems that you cant break through on your own. 
+              </Text>
+
+              <Text mt={4} fontSize="lg">
+                Getting help and advice from other men doing this work gives you the best chance to build the right habits and breakthrough struggles with ease.
+              </Text>
+
 
               <Heading
                 letterSpacing="tight"

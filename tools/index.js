@@ -147,88 +147,10 @@ const Index = () => (
               size="lg"
               fontWeight="bold"
             >
-              Join the waiting list
+              The Retainers tool kit is coming soon. Let me know you are interested by joining the waiting list
             </Heading>
 
-            <Text mt={4}>
-              Membership is currently invite only. This is because I am serving current members individually
-              to make sure they are served to the highest degree. To secure your priority registration 
-              for the next membership opportunity, submit your email and I will contact you directly.
-            </Text>
-          
             <Subscribe />
-
-            <Divider borderColor="gray.200" my={8} w="100%" />
-
-            <Heading
-              letterSpacing="tight"
-              mt={4}
-              as="h2"
-              size="md"
-              size="lg"
-              fontWeight="bold"
-              id='semen-retention'
-            >
-              What is Semen Retention?
-            </Heading>
-
-            <Text mt={4} fontSize="lg">
-              Good question. Semen Retention is a centuries-old practice that allows you to harness your body’s vital energy to drive improved mental, physical and energetic well-being.
-            </Text>
-
-            <Text mt={4} fontStyle="italic" fontSize="lg">
-              The basic purpose of the practice is to increase as much as possible the quantity of life-giving, 
-              age-retarding hormones secreted in a man’s body during sexual excitement, while at 
-              the same time decreasing as much as possible the loss of semen and its related hormones through ejaculation. 
-
-              - Reid, Daniel. The Tao Of Health, Sex And Longevity . 
-            </Text>
-
-            <Text mt={4} fontSize="lg">
-              With a dedicated practice you will expect to gain these benefits:
-            </Text>
-          
-            <List spacing={1} mt={4} as="ul" styleType="ordered">
-              <ListItem fontWeight="medium" fontSize="mg">
-                strong confidence and presence
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                more power and productivity
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                more direction and purpose
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                overcome disruptive sexual habits such as porn addiction and habitual masturbation with ease
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                better connection with women and more sexual confidence
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                a deeper sense of love, acceptance and worthiness
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                be able to feel and clearly express your feelings
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                clarity around your self, strength and weaknesses
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                increased energy to approach life with greater power and strength
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                high functionality of body, mind and wellbeing
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                shift your attention from compulsive thinking and worrying to resting in the simple awareness of presence
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                manifest and attract more abundance to your life
-              </ListItem>
-              <ListItem fontWeight="medium" fontSize="mg">
-                activate the great depths of awareness, power, and strength within you
-              </ListItem>
-            </List>
           </Flex>
         </Stack>
       </Container>
